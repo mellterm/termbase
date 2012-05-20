@@ -1,12 +1,35 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.3'
+gem 'rails', '3.2.0'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'sqlite3'
 
+gem 'will_paginate', '3.0.pre2'
+
+gem 'paperclip'
+gem 'acts_as_tree'
+gem 'haml'
+gem 'formtastic', '1.2.3'
+gem 'nifty-generators', '>= 0.4.0'
+
+group :development do
+  gem 'rspec-rails', '2.3.0'
+  gem 'annotate', '2.4.0'
+  gem 'faker', '0.3.1'
+ 	
+  gem 'hirb' 
+end
+
+group :test do
+  gem 'rspec', '2.3.0'
+  gem 'webrat', '0.7.1'
+  gem 'factory_girl_rails', '1.0'
+end
+
+gem "mocha", :group => :test
 
 # Gems used only for assets and not required
 # in production environments by default.
