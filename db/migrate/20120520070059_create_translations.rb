@@ -1,5 +1,5 @@
 class CreateTranslations < ActiveRecord::Migration
-  def change
+  def self.up
     create_table :translations do |t|
       t.integer :source_language_id
       t.string :source_content
@@ -12,5 +12,12 @@ class CreateTranslations < ActiveRecord::Migration
       t.timestamps
     end
     add_index :translations, :source_content
+    Translation.create_versioned_table
   end
+  
+  def self.down
+    drop_table :translations
+    Translation.drop_versioned_table
+  end
+  
 end

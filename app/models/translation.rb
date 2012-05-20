@@ -1,5 +1,5 @@
 class Translation < ActiveRecord::Base
-  
+  acts_as_versioned :table_name => :translation_versions
   #types
   TRANSLATION_TYPES = ['Segment', 'Term']
   
@@ -10,5 +10,5 @@ class Translation < ActiveRecord::Base
 
   has_many :comments, :as => :commentable
   has_many :ratings, :as => :ratable
-
+  
 end

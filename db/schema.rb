@@ -72,6 +72,20 @@ ActiveRecord::Schema.define(:version => 20120520190206) do
     t.datetime "updated_at",   :null => false
   end
 
+  create_table "translation_versions", :force => true do |t|
+    t.integer  "translation_id"
+    t.integer  "version"
+    t.integer  "source_language_id"
+    t.string   "source_content"
+    t.integer  "target_language_id"
+    t.string   "target_content"
+    t.integer  "authority_id"
+    t.text     "metadata"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.string   "versioned_type"
+  end
+
   create_table "translations", :force => true do |t|
     t.integer  "source_language_id"
     t.string   "source_content"
