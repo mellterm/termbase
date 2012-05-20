@@ -14,6 +14,10 @@ class Translation < ActiveRecord::Base
   has_many :associations
   has_many :associates, :through => :associations, :source => :associate
   
+  has_many :contexts
+  has_many :domains, :through => :contexts
+  
+  
   
   
   

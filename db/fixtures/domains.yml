@@ -1,0 +1,84 @@
+comp:
+   id: 1
+   code: COMP
+   name: Data processing & computer science
+   
+eleceng:
+   id: 2
+   code: ELECENG
+   name: Electricity & electronics
+   
+gentech:
+   id: 3
+   code: GENTECH
+   name: Technology
+   
+auto:
+   id: 4
+   code: AUTO
+   name: Ground transportation/automotive engineering
+
+rail:
+   id: 5
+   code: RAIL
+   name: Engineering of railroads, public rail/tram transportation
+   
+legal:
+   id: 6
+   code: LEGAL
+   name: Law
+   
+mecheng:
+   id: 7
+   code: MECHENG
+   name: Mechanical Engineering
+   
+civileng:
+   id: 8
+   code: CONSTR
+   name: Civil Engineering & Construction
+ 
+telecomm:
+   id: 9
+   code: TELECO
+   name: Telecommunications 
+   
+finance:
+   id: 10
+   code: FINANCE
+   name: Technical (Business) & Finance
+   
+projman:
+   id: 11
+   code: PROJMAN
+   name: Project Management, Controlling
+   
+marketing:
+   id: 12
+   code: MARKETING
+   name: Advertising & Marketing
+ 
+general:
+   id: 13
+   code: GENERAL
+   name: General language-specific
+   
+gentech:
+   id: 14
+   code: GENTECH
+   name: General, language-specific, technical
+
+techdoc:
+   id: 15
+   code: TECHDOC
+   name: Language of technical documentation
+
+cad:
+   id: 16
+   code: CAD
+   name: Computer Aided Design
+
+wood:
+   id: 17
+   code: WOOD
+   name: Wood construction
