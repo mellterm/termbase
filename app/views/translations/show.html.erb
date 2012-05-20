@@ -1,0 +1,40 @@
+<% title "Translation" %>
+
+<p>
+  <strong>Source Language:</strong>
+  <%= @translation.source_language_id %>
+</p>
+<p>
+  <strong>Source Content:</strong>
+  <%= @translation.source_content %>
+</p>
+<p>
+  <strong>Target Language:</strong>
+  <%= @translation.target_language_id %>
+</p>
+<p>
+  <strong>Target Content:</strong>
+  <%= @translation.target_content %>
+</p>
+<p>
+  <strong>Version:</strong>
+  <%= @translation.version %>
+</p>
+<p>
+  <strong>Type:</strong>
+  <%= @translation.type %>
+</p>
+<p>
+  <strong>Authority:</strong>
+  <%= @translation.authority_id %>
+</p>
+<p>
+  <strong>Metadata:</strong>
+  <%= @translation.metadata %>
+</p>
+
+<p>
+  <%= link_to "Edit", edit_translation_path(@translation) %> |
+  <%= link_to "Destroy", @translation, :confirm => 'Are you sure?', :method => :delete %> |
+  <%= link_to "View All", translations_path %>
+</p>

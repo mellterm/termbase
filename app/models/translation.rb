@@ -11,4 +11,10 @@ class Translation < ActiveRecord::Base
   has_many :comments, :as => :commentable
   has_many :ratings, :as => :ratable
   
+  has_many :associations
+  has_many :associates, :through => :associations, :source => :associate
+  
+  
+  
+  
 end

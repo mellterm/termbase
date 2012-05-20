@@ -1,0 +1,31 @@
+<% title "Translations" %>
+
+<table>
+  <tr>
+    <th>Source Language</th>
+    <th>Source Content</th>
+    <th>Target Language</th>
+    <th>Target Content</th>
+    <th>Version</th>
+    <th>Type</th>
+    <th>Authority</th>
+    <th>Metadata</th>
+  </tr>
+  <% for translation in @translations %>
+    <tr>
+      <td><%= translation.source_language_id %></td>
+      <td><%= translation.source_content %></td>
+      <td><%= translation.target_language_id %></td>
+      <td><%= translation.target_content %></td>
+      <td><%= translation.version %></td>
+      <td><%= translation.type %></td>
+      <td><%= translation.authority_id %></td>
+      <td><%= translation.metadata %></td>
+      <td><%= link_to "Show", translation %></td>
+      <td><%= link_to "Edit", edit_translation_path(translation) %></td>
+      <td><%= link_to "Destroy", translation, :confirm => 'Are you sure?', :method => :delete %></td>
+    </tr>
+  <% end %>
+</table>
+
+<p><%= link_to "New Translation", new_translation_path %></p>

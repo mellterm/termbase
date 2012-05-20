@@ -1,0 +1,36 @@
+<%= form_for @translation do |f| %>
+  <%= f.error_messages %>
+  <p>
+    <%= f.label :source_language_id %><br />
+    <%= f.number_field :source_language_id %>
+  </p>
+  <p>
+    <%= f.label :source_content %><br />
+    <%= f.text_field :source_content %>
+  </p>
+  <p>
+    <%= f.label :target_language_id %><br />
+    <%= f.number_field :target_language_id %>
+  </p>
+  <p>
+    <%= f.label :target_content %><br />
+    <%= f.text_field :target_content %>
+  </p>
+  <p>
+    <%= f.label :version %><br />
+    <%= f.number_field :version %>
+  </p>
+  <p>
+    <%= f.label :type %><br />
+    <%= f.text_field :type %>
+  </p>
+  <p>
+    <%= f.label :authority_id %><br />
+    <%= f.number_field :authority_id %>
+  </p>
+  <p>
+    <%= f.label :metadata %><br />
+    <%= f.text_area :metadata %>
+  </p>
+  <p><%= f.submit %></p>
+<% end %>
