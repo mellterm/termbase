@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  source_language_id: 1
+  source_content: MyString
+  target_language_id: 1
+  version: 1
+  type: 
+
+two:
+  source_language_id: 1
+  source_content: MyString
+  target_language_id: 1
+  version: 1
+  type: 

@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  user_id: 1
+  group_id: 1
+  created_on: 2012-05-19 23:57:41
+  expires_on: 2012-05-19 23:57:41
+  expired: false
+
+two:
+  user_id: 1
+  group_id: 1
+  created_on: 2012-05-19 23:57:41
+  expires_on: 2012-05-19 23:57:41
+  expired: false
