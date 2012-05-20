@@ -7,8 +7,8 @@ gem 'rails', '3.2.0'
 
 gem 'sqlite3'
 gem 'pg'
+gem 'acts_as_versioned'
 
-gem 'will_paginate', '3.0.pre2'
 
 gem 'paperclip'
 gem 'acts_as_tree'

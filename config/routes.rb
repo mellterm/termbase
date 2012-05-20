@@ -1,5 +1,12 @@
 Termbase::Application.routes.draw do
   resources :users
+  resources :translations
+  resources :groups
+  resources :comments
+  
+  
+  ##contexts memberships authorities join tables
+  ##domains ratings languages seed data only
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

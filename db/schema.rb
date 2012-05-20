@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120520072706) do
+ActiveRecord::Schema.define(:version => 20120520190206) do
 
   create_table "authorities", :force => true do |t|
     t.integer  "authoritable_id"
@@ -43,9 +43,10 @@ ActiveRecord::Schema.define(:version => 20120520072706) do
   end
 
   create_table "groups", :force => true do |t|
-    t.string   "type"
+    t.string   "group_type"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
+    t.string   "name"
   end
 
   create_table "languages", :force => true do |t|

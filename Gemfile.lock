@@ -30,6 +30,9 @@ GEM
       multi_json (~> 1.0)
     acts_as_tree (1.1.0)
       activerecord (>= 3.0.0)
+    acts_as_versioned (0.2.3)
+      activerecord (>= 1.10.1)
+      activesupport (>= 1.1.1)
     annotate (2.4.0)
     arel (3.0.2)
     builder (3.0.0)
@@ -143,13 +146,13 @@ GEM
       nokogiri (>= 1.2.0)
       rack (>= 1.0)
       rack-test (>= 0.5.3)
-    will_paginate (3.0.pre2)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
   acts_as_tree
+  acts_as_versioned
   annotate (= 2.4.0)
   coffee-rails (~> 3.2.1)
   factory_girl_rails (= 1.0)
@@ -169,4 +172,3 @@ DEPENDENCIES
   sqlite3
   uglifier (>= 1.0.3)
   webrat (= 0.7.1)
-  will_paginate (= 3.0.pre2)
