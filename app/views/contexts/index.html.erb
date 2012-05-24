@@ -1,0 +1,19 @@
+<% title "Contexts" %>
+
+<table>
+  <tr>
+    <th>Translation</th>
+    <th>Domain</th>
+  </tr>
+  <% for context in @contexts %>
+    <tr>
+      <td><%= context.translation_id %></td>
+      <td><%= context.domain_id %></td>
+      <td><%= link_to "Show", context %></td>
+      <td><%= link_to "Edit", edit_context_path(context) %></td>
+      <td><%= link_to "Destroy", context, :confirm => 'Are you sure?', :method => :delete %></td>
+    </tr>
+  <% end %>
+</table>
+
+<p><%= link_to "New Context", new_context_path %></p>

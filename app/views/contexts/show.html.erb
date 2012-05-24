@@ -1,0 +1,16 @@
+<% title "Context" %>
+
+<p>
+  <strong>Translation:</strong>
+  <%= @context.translation_id %>
+</p>
+<p>
+  <strong>Domain:</strong>
+  <%= @context.domain_id %>
+</p>
+
+<p>
+  <%= link_to "Edit", edit_context_path(@context) %> |
+  <%= link_to "Destroy", @context, :confirm => 'Are you sure?', :method => :delete %> |
+  <%= link_to "View All", contexts_path %>
+</p>

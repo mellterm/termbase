@@ -1,6 +1,14 @@
 Termbase::Application.routes.draw do
+  
+
   resources :users
-  resources :translations
+  resources :translations do
+    resources :authorities
+    member do
+      ##member specific to instance of translation
+      post :copy
+    end
+  end  
   resources :groups
   resources :comments
   

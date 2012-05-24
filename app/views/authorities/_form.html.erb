@@ -1,0 +1,12 @@
+<%= form_for @authority do |f| %>
+  <%= f.error_messages %>
+  <p>
+    <%= f.label :authoritable_id %><br />
+    <%= f.number_field :authoritable_id %>
+  </p>
+  <p>
+    <%= f.label :authoritable_type %><br />
+    <%= f.text_field :authoritable_type %>
+  </p>
+  <p><%= f.submit %></p>
+<% end %>

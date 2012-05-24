@@ -1,0 +1,12 @@
+<%= form_for @context do |f| %>
+  <%= f.error_messages %>
+  <p>
+    <%= f.label :translation_id %><br />
+    <%= f.number_field :translation_id %>
+  </p>
+  <p>
+    <%= f.label :domain_id %><br />
+    <%= f.number_field :domain_id %>
+  </p>
+  <p><%= f.submit %></p>
+<% end %>

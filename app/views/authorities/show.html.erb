@@ -1,0 +1,16 @@
+<% title "Authority" %>
+
+<p>
+  <strong>Authoritable:</strong>
+  <%= @authority.authoritable_id %>
+</p>
+<p>
+  <strong>Authoritable Type:</strong>
+  <%= @authority.authoritable_type %>
+</p>
+
+<p>
+  <%= link_to "Edit", edit_authority_path(@authority) %> |
+  <%= link_to "Destroy", @authority, :confirm => 'Are you sure?', :method => :delete %> |
+  <%= link_to "View All", authorities_path %>
+</p>

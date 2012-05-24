@@ -12,6 +12,7 @@
     <th>Metadata</th>
   </tr>
   <% for translation in @translations %>
+	<span style="color:<%= cycle("red", "green", "blue", :name => "colors") -%>">
     <tr>
       <td><%= translation.source_language_id %></td>
       <td><%= translation.source_content %></td>
@@ -25,7 +26,9 @@
       <td><%= link_to "Edit", edit_translation_path(translation) %></td>
       <td><%= link_to "Destroy", translation, :confirm => 'Are you sure?', :method => :delete %></td>
     </tr>
+	</span>
   <% end %>
+<% reset_cycle("colors") %>
 </table>
 
 <p><%= link_to "New Translation", new_translation_path %></p>

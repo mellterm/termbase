@@ -3,4 +3,5 @@ class Context < ActiveRecord::Base
   
   belongs_to :translation
   belongs_to :domain
+  
 end

@@ -2,7 +2,7 @@
   <%= f.error_messages %>
   <p>
     <%= f.label :source_language_id %><br />
-    <%= f.number_field :source_language_id %>
+	<%= f.collection_select(:source_language_id, Language.all, :id, :name) %>
   </p>
   <p>
     <%= f.label :source_content %><br />
@@ -10,23 +10,25 @@
   </p>
   <p>
     <%= f.label :target_language_id %><br />
-    <%= f.number_field :target_language_id %>
+	<%= f.collection_select(:target_language_id, @tar_languages, :id, :name) %>
   </p>
   <p>
     <%= f.label :target_content %><br />
     <%= f.text_field :target_content %>
   </p>
   <p>
-    <%= f.label :version %><br />
-    <%= f.number_field :version %>
-  </p>
-  <p>
     <%= f.label :type %><br />
     <%= f.text_field :type %>
   </p>
+	<%= f.hidden_field(:authority_id) %>
   <p>
-    <%= f.label :authority_id %><br />
-    <%= f.number_field :authority_id %>
+	<% for context in @translation.contexts %>
+		<%= f.fields_for :contexts do |context_form| %>
+			<%= context_form.label :domain_id %><br />
+			<%= context_form.collection_select(:domain_id, @domains, :id, :code, :prompt => true) %><br />
+			<%= context_form.hidden_field(:translation_id) %>
+		<% end %>
+	<% end %>
   </p>
   <p>
     <%= f.label :metadata %><br />

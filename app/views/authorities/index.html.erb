@@ -1,0 +1,19 @@
+<% title "Authorities" %>
+
+<table>
+  <tr>
+    <th>Authoritable</th>
+    <th>Authoritable Type</th>
+  </tr>
+  <% for authority in @authorities %>
+    <tr>
+      <td><%= authority.authoritable_id %></td>
+      <td><%= authority.authoritable_type %></td>
+      <td><%= link_to "Show", authority %></td>
+      <td><%= link_to "Edit", edit_authority_path(authority) %></td>
+      <td><%= link_to "Destroy", authority, :confirm => 'Are you sure?', :method => :delete %></td>
+    </tr>
+  <% end %>
+</table>
+
+<p><%= link_to "New Authority", new_authority_path %></p>

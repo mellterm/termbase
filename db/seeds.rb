@@ -6,6 +6,17 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
+#delte everything and reseed
+Language.delete_all
+Domain.delete_all
+User.delete_all
+Group.delete_all
+Translation.delete_all
+
+# require 'active_record/fixtures'
+# Fixtures.create_fixtures("#{Rails.root}/db/fixtures", "language_i18ns")
+
+
 ##create languages
 german = Language.create(:name => "German", :iso_code => "de")
 germande = Language.create(:name => "German(Germany)", :iso_code => "de-de")

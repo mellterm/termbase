@@ -18,7 +18,7 @@ gem 'nifty-generators', '>= 0.4.0'
 
 group :development do
   gem 'rspec-rails', '2.3.0'
-  gem 'annotate', '2.4.0'
+  gem "annotated-rails", "~> 0.0.2"
   gem 'faker', '0.3.1'
   gem 'hirb' 
 end
