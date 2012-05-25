@@ -15,7 +15,7 @@ class AuthoritiesController < ApplicationController
   end
 
   def new
-    @translation= = Translation.find(params[:translation_id])
+    @translation= Translation.find(params[:translation_id])
     @authority = Authority.new
   end
 
