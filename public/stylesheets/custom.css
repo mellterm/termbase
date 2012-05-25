@@ -1,0 +1,353 @@
+.container {
+	/* originally 710*/
+width: 850px;
+}
+body {
+background: #EECFA1;		
+
+}
+header {
+padding-top: 20px;
+}
+header img {
+padding: 1em;
+background: #fff;
+}
+section {
+margin-top: 1em;
+font-size: 100%;
+padding: 20px;
+background: #fff;
+}
+section h1 {
+font-size: 170%;
+}
+section h2 {
+font-size: 140%;
+}
+section h3 {
+font-size: 110%;
+}
+
+/* Links */
+a {
+color: #09c;
+text-decoration: none;
+}
+a:hover {
+color: #069;
+text-decoration: underline;
+}
+
+/* Navigation */
+nav {
+float: right;
+}
+nav {
+background-color: white;
+padding: 0 0.2em;
+white-space: nowrap;
+}
+nav ul {
+margin: 0;
+padding: 0;
+}
+nav ul li {
+list-style-type: none;
+display: inline-block;
+padding: 0.2em 0;
+}
+nav ul li a {
+padding: 0 5px;
+font-weight: bold;
+}
+nav ul li a:visited {
+color: #09c;
+}
+nav ul li a:hover {
+text-decoration: underline;
+}
+
+/* Sign up button */
+a.signup_button {
+margin-left: auto;
+margin-right: auto;
+display: block;
+text-align: center;
+width: 190px;
+color: #fff;
+background: #006400;
+font-size: 150%;
+font-weight: bold;
+padding: 20px;
+}
+
+
+/* search styling */
+/* my search button */
+a.search_button {
+margin-left: auto;
+margin-right: auto;
+display: block;
+text-align: center;
+width: 190px;
+color: #fff;
+background: #E3170D; <!--#B22222 -!>
+font-size: 110%;
+font-weight: bold;
+padding: 10px;
+	
+	
+}
+
+h1.search {
+margin-bottom: 0.3em;
+}
+
+
+form.new_search textarea {
+height: 4em;
+margin-bottom: 0;
+}
+
+#search_explanation {
+	font-size: 75%;
+}
+
+
+/* searches/new */
+table.newsearch {
+width: 100%;
+margin-bottom: 0;
+}
+
+
+
+
+/* Round corners */
+.round {
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+border-radius: 10px;
+}
+
+footer {
+text-align: center;
+margin-top: 10px;
+width: 710px;
+margin-left: auto;
+margin-right: auto;
+}
+/* footer nav {
+float: none;
+}*/
+
+/* User show page */
+table.profile {
+width: 100%;
+margin-bottom: 0;
+}
+td.main {
+width: 70%;
+padding: 1em;
+}
+td.sidebar {
+width: 30%;
+padding: 1em;
+vertical-align: top;
+background: #ffc;
+}
+
+.profile img.gravatar {
+border: 1px solid #999;
+}
+
+div.optional { }
+
+div.field, div.actions {
+margin-bottom: 10px;
+}
+
+
+.field_with_errors {
+margin-top: 10px;
+padding: 2px;
+background-color: red;
+display: table;
+}
+.field_with_errors label {
+color: #fff;
+}
+#error_explanation {
+width: 400px;
+border: 2px solid red;
+padding: 7px;
+padding-bottom: 12px;
+margin-bottom: 20px;
+background-color: #f0f0f0;
+}
+#error_explanation h2 {
+text-align: left;
+font-weight: bold;
+padding: 5px 5px 5px 15px;
+font-size: 12px;
+margin: -7px;
+background-color: #c00;
+color: #fff;
+}
+#error_explanation p {
+color: #333;
+margin-bottom: 0;
+padding: 5px;
+}
+#error_explanation ul li {
+font-size: 12px;
+list-style: square;
+}
+
+/* developers page */
+.wantedimg {
+padding: 1em;
+background: #fff;
+}
+
+
+ul.users {
+margin-top: 1em;
+}
+.users li {
+list-style: none;
+}
+
+
+/* Show Terms on Users page */
+
+.query {
+	background-color:#FFFF00;
+	font-style: italic;	
+}
+
+.source_content {
+	color: blue;
+} 
+
+.target_content {
+	color: green;
+} 
+
+.source_language, .target_language {
+	font-style:italic;
+}
+
+/* Panel Styling */
+
+
+#userpanel {
+	background-color: #556B2F;
+	padding: 10px;
+}
+
+#adminlinks {
+	font-family: "Courier";
+	padding: 10px;
+	background-color: #3D59AB;
+}
+
+
+
+/* Term styling */
+
+h1.term {
+margin-bottom: 0.3em;
+}
+table.terms {
+margin-top: 1em;
+}
+table.terms tr {
+height: 70px;
+}
+table.terms tr td.gravatar {
+border-top: 1px solid #ccc;
+vertical-align: top;
+width: 50px;
+}
+table.terms tr td.term {
+border-top: 1px solid #ccc;
+vertical-align: top;
+padding-top: 10px;
+}
+
+table.terms tr td.term span.timestamp {
+display: block;
+font-size: 85%;
+color: #666;
+}
+div.user_info img {
+padding-right: 0.1em;
+}
+div.user_info a {
+text-decoration: none;
+}
+div.user_info span.user_name {
+position: absolute;
+}
+div.user_info span.terms {
+font-size: 80%;
+}
+form.new_term {
+margin-bottom: 2em;
+}
+form.new_term textarea {
+height: 4em;
+margin-bottom: 0;
+}
+
+/* my term display styles */
+
+.domain {
+	color: #00ff00;
+}
+
+
+
+
+/* TERM form experimental */
+.termmodelinform {
+	padding: 5px;
+	background-color: #556B2F;
+}
+
+.sourcetumodelinform {
+
+	padding: 5px;
+	background-color: #BCEE68;
+}
+
+.targettumodelinform {
+	padding: 5px;
+	background-color: #9BC4E2;
+}
+
+
+.domaincubesinform {
+	padding: 5px;
+	background-color: #385E0F;
+	
+}
+
+.termsourceinform {
+	padding: 5px;
+	background-color: #E8F1D4;
+	
+}
+
+.translationtypeinform {
+	
+}
+
+/* page layouts */
+
+
+
+
+
