@@ -19,9 +19,6 @@
   <p>
     <%= f.label :type %><br />
     <%= f.text_field :type %>
-  </p>
-	<%= f.hidden_field(:authority_id) %>
-  <p>
 	<% for context in @translation.contexts %>
 		<%= f.fields_for :contexts do |context_form| %>
 			<%= context_form.label :domain_id %><br />
