@@ -6,12 +6,8 @@ class Translation < ActiveRecord::Base
   TRANSLATION_ILKS = ['Segment', 'Term']
   validates :ilk, :inclusion => TRANSLATION_ILKS
   
-  validates_uniqueness_of :source_content, :scope => [:target_content, :authority_id], :unless => :domain_different
-  
-  def domain_different
-    #return true if domain different
-    return false
-  end
+  validates_uniqueness_of :source_content, :scope => [:source_content, :target_content, :created_by_id, :group_id]
+
   
 
   
