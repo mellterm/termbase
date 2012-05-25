@@ -1,0 +1,22 @@
+# Sample localization file for English. Add more files in this directory for other locales.
+# See http://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
+
+de:
+  hello: "Hallo Welt"
+  signup: "Mitglied werden"
+  email: "Email"
+  password: "Passwort"
+  password_confirmation: "Passwort Bestätigung"
+  signedup_flash: "Sie sind angemeldet!"
+  loggedin_flash: "Sie sind nun eingeloggt"
+  invalidlogin_flash: "Email oder Password ungütig"
+  loggedout_flash: "Sind sind ausgeloggt!"
+  logged_in_as: "Eingeloggt als"
+  must_be_between_3_8_chars: "Must be between 3 & 8 characters in length"
+  prohibited_this_user_from_being_saved: "Fehler hat das Speichern dieses Users verhindert"
+  problems_with_following_fields: "Es gab mit den folgenden Feldern Probleme"
+  cant_be_blank: "muss gefüllt werden"
+  must_be_unique: "darf nicht schon vergeben sein"
+  translations: "Übersetzungen"
+  created_by: "Besitzer"
+  last_updated_by: "Zuletzt geändert von"

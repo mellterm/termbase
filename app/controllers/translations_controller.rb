@@ -30,6 +30,8 @@ class TranslationsController < ApplicationController
 
   def edit
     @translation = Translation.find(params[:id])
+    @tar_languages = Language.find(:all, :order => 'iso_code DESC' )
+    @domains = Domain.find(:all, :order => 'code ASC')
   end
 
   def update

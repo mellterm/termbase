@@ -14,7 +14,7 @@ class UsersController < ApplicationController
   # GET /users/1.json
   def show
     @user = User.find(params[:id])
-
+    @title = @user.name
     respond_to do |format|
       format.html # show.html.erb
       format.json { render json: @user }
@@ -24,7 +24,9 @@ class UsersController < ApplicationController
   # GET /users/new
   # GET /users/new.json
   def new
+    @title = t(:signup)
     @user = User.new
+    @allusers = User.order("created_at DESC")
 
     respond_to do |format|
       format.html # new.html.erb
@@ -41,10 +43,10 @@ class UsersController < ApplicationController
   # POST /users.json
   def create
     @user = User.new(params[:user])
-
+    @allusers = User.order("created_at DESC")
     respond_to do |format|
       if @user.save
-        format.html { redirect_to @user, notice: 'User was successfully created.' }
+        format.html { redirect_to @user, :notice => t(:signedup_flash) }
         format.json { render json: @user, status: :created, location: @user }
       else
         format.html { render action: "new" }

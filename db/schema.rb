@@ -11,14 +11,18 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120520222519) do
+ActiveRecord::Schema.define(:version => 20120525164954) do
 
   create_table "associations", :force => true do |t|
-    t.integer  "translation_id"
-    t.integer  "associate_id"
-    t.datetime "created_at",     :null => false
-    t.datetime "updated_at",     :null => false
+    t.integer  "associator_id"
+    t.integer  "associated_id"
+    t.datetime "created_at",    :null => false
+    t.datetime "updated_at",    :null => false
   end
+
+  add_index "associations", ["associated_id"], :name => "index_associations_on_associated_id"
+  add_index "associations", ["associator_id", "associated_id"], :name => "index_associations_on_associator_id_and_associated_id", :unique => true
+  add_index "associations", ["associator_id"], :name => "index_associations_on_associator_id"
 
   create_table "authorities", :force => true do |t|
     t.integer  "authoritable_id"
@@ -51,9 +55,11 @@ ActiveRecord::Schema.define(:version => 20120520222519) do
 
   create_table "groups", :force => true do |t|
     t.string   "group_type"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+    t.datetime "created_at",            :null => false
+    t.datetime "updated_at",            :null => false
     t.string   "name"
+    t.string   "encrypted_secure_code"
+    t.string   "salt"
   end
 
   create_table "languages", :force => true do |t|
@@ -86,12 +92,16 @@ ActiveRecord::Schema.define(:version => 20120520222519) do
     t.string   "source_content"
     t.integer  "target_language_id"
     t.string   "target_content"
-    t.integer  "authority_id"
+    t.integer  "created_by_id"
+    t.integer  "group_id"
     t.text     "metadata"
+    t.string   "ilk",                :default => "Term"
     t.datetime "created_at"
     t.datetime "updated_at"
     t.string   "versioned_type"
   end
+
+  add_index "translation_versions", ["translation_id"], :name => "index_translation_versions_on_translation_id"
 
   create_table "translations", :force => true do |t|
     t.integer  "source_language_id"
@@ -100,19 +110,27 @@ ActiveRecord::Schema.define(:version => 20120520222519) do
     t.string   "target_content"
     t.integer  "version"
     t.string   "type"
-    t.integer  "authority_id"
+    t.integer  "created_by_id"
+    t.integer  "group_id"
     t.text     "metadata"
-    t.datetime "created_at",         :null => false
-    t.datetime "updated_at",         :null => false
+    t.string   "ilk",                :default => "Term"
+    t.datetime "created_at",                             :null => false
+    t.datetime "updated_at",                             :null => false
   end
 
+  add_index "translations", ["source_content", "target_content", "created_by_id", "group_id"], :name => "unique_trans_user_and_group", :unique => true
   add_index "translations", ["source_content"], :name => "index_translations_on_source_content"
 
   create_table "users", :force => true do |t|
     t.string   "name"
     t.boolean  "subscribed"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+    t.datetime "created_at",         :null => false
+    t.datetime "updated_at",         :null => false
+    t.string   "email"
+    t.string   "encrypted_password"
+    t.string   "salt"
   end
+
+  add_index "users", ["email"], :name => "index_users_on_email", :unique => true
 
 end

@@ -7,8 +7,10 @@ class CreateTranslations < ActiveRecord::Migration
       t.string :target_content
       t.integer :version
       t.string :type
-      t.integer :authority_id
+      t.integer :created_by_id
+      t.integer :group_id
       t.text :metadata
+      t.string :ilk, :default => 'Term'
       t.timestamps
     end
     add_index :translations, :source_content

@@ -2,6 +2,7 @@ Termbase::Application.routes.draw do
   
 
   resources :users
+  
   resources :translations do
     resources :authorities
     member do
@@ -12,9 +13,15 @@ Termbase::Application.routes.draw do
   resources :groups
   resources :comments
   
+  ##root :to => "pages#home"
+  root :to => "translation#index"
   
-  ##contexts memberships authorities join tables
-  ##domains ratings languages seed data only
+  
+  match '/signup', :to => 'users#new'
+  match '/signupgrp', :to => 'groups#new'
+
+
+  
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

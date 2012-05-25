@@ -7,14 +7,14 @@ gem 'rails', '3.2.0'
 
 gem 'sqlite3'
 gem 'pg'
-gem 'acts_as_versioned'
-
+gem 'acts_as_versioned', :git => 'https://github.com/jwhitehorn/acts_as_versioned.git'
 
 gem 'paperclip'
 gem 'acts_as_tree'
 gem 'haml'
 gem 'formtastic', '1.2.3'
 gem 'nifty-generators', '>= 0.4.0'
+gem 'gravatar_image_tag'
 
 group :development do
   gem 'rspec-rails', '2.3.0'
