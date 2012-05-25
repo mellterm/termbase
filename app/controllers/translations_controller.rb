@@ -12,8 +12,7 @@ class TranslationsController < ApplicationController
     @translation = Translation.new
     @domains = Domain.find(:all, :order => 'code ASC')
     @tar_languages = Language.find(:all, :order => 'iso_code DESC' )
-    #will be user/group (after login branch)
-    @translation.authority_id = 1
+
     #1 domain initially
     context = @translation.contexts.build
     
