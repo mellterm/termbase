@@ -2,7 +2,7 @@
 <html>
   <head>
     <title><%= content_for?(:title) ? yield(:title) : "Untitled" %></title>
-    <%= render 'layouts/stylesheets' %>
+ 	<%= stylesheet_link_tag    "application", media: "all" %>
     <%= javascript_include_tag :defaults %>
     <%= csrf_meta_tag %>
     <%= yield(:head) %>
@@ -10,18 +10,12 @@
   <body>
     <div id="container">
 		<%= render 'layouts/header' %>	
-			<section class="round">
-				
-				<% flash.each do |key, value|%>
-				<div class="flash <%=key %>"><%= value %></div>
-				<% end %>
-				
-				<%= content_tag :h1, yield(:title) if show_title? %>
-      			<%= yield %>
-			</section>	
+		
+		<%= yield %>	
 			
-			<%= render 'layouts/footer' %>
-			<%= debug(params) if Rails.env.development? %>	
+		<%= render 'layouts/footer' %>
+			
+		<%= debug(params) if Rails.env.development? %>	
     </div>
   </body>
 </html>

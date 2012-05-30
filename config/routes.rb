@@ -1,7 +1,14 @@
 Termbase::Application.routes.draw do
   
 
+  get "login" => "sessions#new", :as => "login"
+  get "logout" => "sessions#destroy", :as => "logout"
+
+  match '/signup', :to => 'users#new'
+  match '/signupgrp', :to => 'groups#new'
+
   resources :users
+  resources :sessions
   
   resources :translations do
     resources :authorities
@@ -14,7 +21,7 @@ Termbase::Application.routes.draw do
   resources :comments
   
   ##root :to => "pages#home"
-  root :to => "translation#index"
+  root :to => "translations#index"
   
   
   match '/signup', :to => 'users#new'

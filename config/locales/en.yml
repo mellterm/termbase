@@ -4,6 +4,8 @@
 en:
   hello: "Hello world"
   signup: "Sign Up"
+  login: "Log in!"
+  logout: "Log Out!"
   email: "Email"
   password: "Password"
   password_confirmation: "Password confirmation"
@@ -12,6 +14,7 @@ en:
   invalidlogin_flash: "Invalid email or password"
   loggedout_flash: "Logged Out!"
   logged_in_as: "Logged in as"
+  not_authorized: "Not authorized"
   must_be_between_3_8_chars: "Must be between 3 & 8 characters in length"
   errors_prohibited_this_user_from_being_saved: "error(s) prohibited this user from being saved"
   problems_with_following_fields: "There were problems with the following fields"
@@ -58,3 +61,5 @@ en:
   enter_a_name_for_the_source_document: "Enter a name for the source document"
   createnewgrouporlogin: "Create/Sign In: Group"
   membersince: "Member since"
+  newuser: "New User"
+  newgroup: "New Group"

@@ -1,6 +1,19 @@
 			<header>
-				<%= link_to root_path %>
-				<nav class="round">
-				HEADER
-				</nav>
+				<div id="container">
+				      <div id="user_header">
+				        <% if current_user %>
+				          <%= t(:logged_in_as)	%> <%= current_user.name %>.
+				          <%= link_to "Log Out", logout_path(current_user) %>
+				        <% else %>
+				          <%= link_to "Sign Up", signup_path %> or
+				          <%= link_to "Log In", login_path %>
+				        <% end %>
+				 </div>
+				      
+					<% flash.each do |name, msg| %>
+				        <%= content_tag :div, msg, id: "flash_#{name}" %>
+				      <% end %>
+				<div id="nav">
+				
+				</div>
 			</header>

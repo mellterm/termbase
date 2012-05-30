@@ -46,6 +46,8 @@ class UsersController < ApplicationController
     @allusers = User.order("created_at DESC")
     respond_to do |format|
       if @user.save
+        #this logs in user
+        session[:user_id] = @user.id
         format.html { redirect_to @user, :notice => t(:signedup_flash) }
         format.json { render json: @user, status: :created, location: @user }
       else

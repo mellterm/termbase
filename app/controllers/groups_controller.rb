@@ -1,11 +1,12 @@
 class GroupsController < ApplicationController
+  
   def index
     @groups = Group.all
   end
 
   def show
     @group = Group.find(params[:id])
-    @secure_code = @group.secure_code
+    @access_code= @group.access_code
   end
 
   def new
@@ -13,9 +14,8 @@ class GroupsController < ApplicationController
   end
 
   def create
+    #use user-like login with user name + secure_code
     @group = Group.new(params[:group])
-
-    
     if @group.save
       redirect_to @group, :notice => "Successfully created group."
     else
