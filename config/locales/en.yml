@@ -9,6 +9,9 @@ en:
   email: "Email"
   password: "Password"
   password_confirmation: "Password confirmation"
+  forgotten_password: "Forgotten Password?"
+  check_your_inbox_for_instructions_on_how_to_reset_your_password: "Your inbox has instructions on how to reset your password"
+  reset_password: "Reset Password"
   signedup_flash: "Signed up!"
   loggedin_flash: "Logged In!"
   invalidlogin_flash: "Invalid email or password"
@@ -63,3 +66,6 @@ en:
   membersince: "Member since"
   newuser: "New User"
   newgroup: "New Group"
+  user_mailer:
+      password_reset:
+          subject: "Reset your Password"

@@ -1,6 +1,8 @@
 Termbase::Application.routes.draw do
   
 
+  get "password_resets/new"
+
   get "login" => "sessions#new", :as => "login"
   get "logout" => "sessions#destroy", :as => "logout"
 
@@ -9,7 +11,7 @@ Termbase::Application.routes.draw do
 
   resources :users
   resources :sessions
-  
+  resources :password_resets
   resources :translations do
     resources :authorities
     member do
