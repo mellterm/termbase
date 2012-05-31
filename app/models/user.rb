@@ -7,9 +7,9 @@ class User < ActiveRecord::Base
                 :format => { :with => email_regex },
                 :length => { :maximum => 50 },
                 :uniqueness => {:case_sensitive => false }
-  # validates     :password, :presence => true,
-  #                 :confirmation => true,
-  #                 :length => { :within => 6..40 }
+  #this also creates a virtual attr automatically called password_confirmation!!
+  validates :password, :confirmation => true
+                
   validates_presence_of :password, :on => :create
   
   before_save :encrypt_password

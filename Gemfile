@@ -15,6 +15,9 @@ gem 'haml'
 gem 'formtastic', '1.2.3'
 gem 'nifty-generators', '>= 0.4.0'
 gem 'gravatar_image_tag'
+gem 'tlsmail'
+
+
 
 group :development do
   gem 'rspec-rails', '2.3.0'
