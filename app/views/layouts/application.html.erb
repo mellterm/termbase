@@ -8,8 +8,6 @@
     <%= yield(:head) %>
   </head>
   <body>
-	
-	<div id="container">
 	<div id="header">
    		<%= render 'layouts/header' %>
 	</div>	
@@ -23,12 +21,9 @@
 		 <div class="row-fluid">
 			<div class="span9">
 				<div class="hero-unit">
-			            <h1>Hello, world!</h1>
-			            <p>	This is a template for a simple marketing or informational website. 
-							It includes a large callout called the hero unit and three supporting 
-							pieces of content. Use it as a starting point to create something more unique.
-							
-							<div id="infopane">
+			            <h1>Live Feed</h1>
+			            <p>	Live Feed Information Here.
+												
 								Other Users in the System:
 								<br/>	
 							<% @allusers.each do | user | %>	
@@ -36,21 +31,17 @@
 								<%= t(:membersince) %> 
 								<%= time_ago_in_words(user.created_at) %><br/> 
 							<% end %>
-							</div>
 						</p>	
-				</div></div><!--/.hero-unit-->
-					
-				<%= yield %>
-				
+				</div><!--/.hero-unit-->		
+				other less important information here
+				maybe links			
 			</div>
 		
 			<div class="span3">
-				Sidebar here
+				<%= yield %>
 			</div><!--/span3-->			
 		
 		</div><!--/row-fluid-->	
-  	
-	
 		<footer>
 	   		<%= render 'layouts/footer' %>
 		</footer>		
