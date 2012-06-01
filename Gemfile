@@ -18,7 +18,8 @@ gem 'gravatar_image_tag'
 gem 'tlsmail'
 gem 'remote_table'
 gem 'metainspector'
-
+gem 'bootstrap-sass'
+gem 'bcrypt-ruby', '3.0.1'
 
 group :development do
   gem 'rspec-rails', '2.3.0'

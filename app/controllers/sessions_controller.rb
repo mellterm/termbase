@@ -7,6 +7,7 @@ class SessionsController < ApplicationController
       if user && User.authenticate(params[:email], params[:password])
         if params[:remember_me]
               cookies.permanent[:auth_token] = user.auth_token
+              # current_user = user
             else
               cookies[:auth_token] = user.auth_token
         end      

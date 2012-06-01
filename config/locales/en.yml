@@ -6,6 +6,7 @@ en:
   signup: "Sign Up"
   login: "Log in!"
   logout: "Log Out!"
+  createmyaccount: "Create my account"
   email: "Email"
   password: "Password"
   password_confirmation: "Password confirmation"

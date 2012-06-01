@@ -16,6 +16,21 @@ Translation.delete_all
 # require 'active_record/fixtures'
 # Fixtures.create_fixtures("#{Rails.root}/db/fixtures", "language_i18ns")
 
+#create users
+
+
+
+#create groups
+
+
+#user sign up groups
+
+
+
+#import translations to db
+
+#groups and users add translations
+
 
 ##create languages
 german = Language.create(:name => "German", :iso_code => "de")

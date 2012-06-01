@@ -1,19 +1,38 @@
-			<header>
-				<div id="container">
-				      <div id="user_header">
-				        <% if current_user %>
-				          <%= t(:logged_in_as)	%> <%= current_user.name %>.
-				          <%= link_to "Log Out", logout_path(current_user) %>
-				        <% else %>
-				          <%= link_to "Sign Up", signup_path %> or
-				          <%= link_to "Log In", login_path %>
-				        <% end %>
-				 </div>
+			<div class="navbar navbar-fixed-top">
+		      <div class="navbar-inner">
+		        <div class="container-fluid">
+		          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+		            <span class="icon-bar"></span>
+		            <span class="icon-bar"></span>
+		            <span class="icon-bar"></span>
+		          </a>
+		          <a class="brand" href="#">Project name</a>
+		          <div class="btn-group pull-right">
+		            <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
+		              <i class="icon-user"></i> Username
+		              <span class="caret"></span>
+		            </a>
+		            <ul class="dropdown-menu">
+		              <li><a href="#">Profile</a></li>
+		              <li class="divider"></li>
+		              <li><a href="#"><%= t(:logout)%></a></li>
+					  <li class="divider"></li>
+					  <li><a href="#"><%= t(:login)%></a></li>			
+		            </ul>
+		          </div>
+		          <div class="nav-collapse">
+		            <ul class="nav">
+		              <li class="active"><a href="#">Home</a></li>
+		              <li><a href="#about">About</a></li>
+		              <li><a href="#contact">Contact</a></li>
+		              <li><%= link_to 'Back', users_path %></li>
+		
+		            </ul>
+		          </div><!--/.nav-collapse -->
+		        </div>
+		      </div>
+		    </div>
+			
+		
 				      
-					<% flash.each do |name, msg| %>
-				        <%= content_tag :div, msg, id: "flash_#{name}" %>
-				      <% end %>
-				<div id="nav">
-				
-				</div>
-			</header>
+		

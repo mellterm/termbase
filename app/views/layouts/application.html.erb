@@ -8,23 +8,53 @@
     <%= yield(:head) %>
   </head>
   <body>
+	
 	<div id="container">
 	<div id="header">
    		<%= render 'layouts/header' %>
 	</div>	
-	<div id="teaser">
-	</div>
-	<div id="main">
-		
-				<%= yield %>
-		
-			
-  	</div>
 	
-	<div id="footer">
-	   	<%= render 'layouts/footer' %>
-	</div>		
+	<div class="container-fluid">
 		
+		<% flash.each do |key, value| %>
+		        <div class="alert alert-<%= key %>"><%= value %></div>
+		      <% end %>
+		
+		 <div class="row-fluid">
+			<div class="span9">
+				<div class="hero-unit">
+			            <h1>Hello, world!</h1>
+			            <p>	This is a template for a simple marketing or informational website. 
+							It includes a large callout called the hero unit and three supporting 
+							pieces of content. Use it as a starting point to create something more unique.
+							
+							<div id="infopane">
+								Other Users in the System:
+								<br/>	
+							<% @allusers.each do | user | %>	
+								<%= user.name %></br/>
+								<%= t(:membersince) %> 
+								<%= time_ago_in_words(user.created_at) %><br/> 
+							<% end %>
+							</div>
+						</p>	
+				</div></div><!--/.hero-unit-->
+					
+				<%= yield %>
+				
+			</div>
+		
+			<div class="span3">
+				Sidebar here
+			</div><!--/span3-->			
+		
+		</div><!--/row-fluid-->	
+  	
+	
+		<footer>
+	   		<%= render 'layouts/footer' %>
+		</footer>		
+	</div><!--/.fluid-container-->	
 	<div id="debug">	
 		<%= debug(params) if Rails.env.development? %>	
     </div>
