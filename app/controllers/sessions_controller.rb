@@ -1,25 +1,22 @@
 class SessionsController < ApplicationController
   def new
   end
+  
+  
   def create
-      #authentication logic
-      user = User.find_by_email(params[:email])
-      if user && User.authenticate(params[:email], params[:password])
-        if params[:remember_me]
-              cookies.permanent[:auth_token] = user.auth_token
-              # current_user = user
-            else
-              cookies[:auth_token] = user.auth_token
-        end      
-        redirect_to root_url, :notice => t(:loggedin_flash)
+      #authentication logic, authenticate is provided by has_secure_password
+      user = User.find_by_email(params[:session][:email])
+      if user && user.authenticate(params[:session][:password])
+            log_in user
+            redirect_to user
       else
-        flash.now[:alert] = t(:invalidlogin_flash)
-        render "new"
+          flash.now[:error] = t(:invalidlogin_flash)
+          render "new"
       end
     end
 
     def destroy
-      cookies.delete(:auth_token)
-      redirect_to root_url, :notice => t(:loggedout_flash)
+      log_out
+      redirect_to root_path
     end
 end

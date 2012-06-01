@@ -5,6 +5,19 @@
   	<%= gravatar_for @user %><br/>
 	<%= @user.email %></br/>
 </p>
+
+ <h1>Live Feed</h1>
+    <p>	Live Feed Information Here.
+							
+			Other Users in the System:
+			<br/>	
+		<% @allusers.each do | user | %>	
+			<%= user.name %></br/>
+			<%= t(:membersince) %> 
+			<%= time_ago_in_words(user.created_at) %><br/> 
+		<% end %>
+	</p>
+
 <br/>
 <%= link_to 'Edit', edit_user_path(@user) %> |
 <%= link_to 'Back', users_path %>

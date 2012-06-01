@@ -43,13 +43,14 @@ class UsersController < ApplicationController
   # POST /users
   # POST /users.json
   def create
+    #signs up the user once doing so login
     @user = User.new(params[:user])
     @allusers = User.order("created_at DESC")
     respond_to do |format|
       if @user.save
-        #this logs in user
-        session[:user_id] = @user.id
-        format.html { redirect_to @user, :notice => t(:signedup_flash) }
+        sign_in @user
+        flash[:success] = t(:welcome_to_termbase)
+        redirect_to @user 
         format.json { render json: @user, status: :created, location: @user }
       else
         format.html { render action: "new" }

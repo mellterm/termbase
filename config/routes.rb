@@ -1,16 +1,15 @@
 Termbase::Application.routes.draw do
   
-
-  get "password_resets/new"
-
-  get "login" => "sessions#new", :as => "login"
-  get "logout" => "sessions#destroy", :as => "logout"
-
-  match '/signup', :to => 'users#new'
-  match '/signupgrp', :to => 'groups#new'
-
   resources :users
-  resources :sessions
+  resources :sessions, only: [:new, :create, :destroy]
+  
+  match '/signup', to: 'users#new'
+  match '/login', to: 'sessions#new'
+  match '/logout', to: 'sessions#destroy'
+
+  match '/signupgrp', to: 'groups#new'
+  
+
   resources :password_resets
   resources :translations do
     resources :authorities
@@ -26,9 +25,6 @@ Termbase::Application.routes.draw do
   root :to => "translations#index"
   
   
-  match '/signup', :to => 'users#new'
-  match '/signupgrp', :to => 'groups#new'
-
 
   
 

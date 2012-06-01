@@ -5,6 +5,7 @@ en:
   hello: "Hello world"
   signup: "Sign Up"
   login: "Log in!"
+  welcome_to_termbase: "Welcome to Termbase!"
   logout: "Log Out!"
   createmyaccount: "Create my account"
   email: "Email"
@@ -39,12 +40,14 @@ en:
   created_translation: "Successfully created translation"
   welcome_address: "Welcome to t2t"
   sign_up_now:  "Sign up Now!"
+  new_user: "New user"
   choose_a_language: "Choose a language..."
   translations: "Translations"
   created_by: "Created by"
   last_updated_by: "Last updated by"
   basic_information: "Basic Information"
   profile: "Profile"
+  myprofile: "My Profile"
   sales_pitch: "Sales pitch"
   website: "Website"
   choose_a_language: "Choose a language..."
@@ -74,3 +77,8 @@ en:
   user_mailer:
       password_reset:
           subject: "Reset your Password"
+  activerecord:
+      attributes:
+          user:
+              password_digest: password
+      

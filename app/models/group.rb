@@ -11,22 +11,13 @@ class Group < ActiveRecord::Base
   accepts_nested_attributes_for :translations
   
   before_save :generate_access_code
-  
-  def has_access_code?(submitted_access_code)
-    encrypted_access_code == encrypt(submitted_access_code)
-  end
-  
-  def self.authenticate(name, submitted_access_code)
-    group = find_by_name(name)
-    return nil if group.nil?
-    return group if group.has_access_code?(submitted_access_code)
-  end
-  
+    
   private
   
      def generate_access_code
+       #also handles duplicates, self because refers to group not instance var
        begin
-         self.access_code = SecureRandom.hex(3)
+         self.access_code = SecureRandom.urlsafe_base64(3)
        end while self.class.exists?(access_code: access_code)
     end
         
