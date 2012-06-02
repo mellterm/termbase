@@ -3,10 +3,12 @@
 1. fix reset password
    localhost and/or deployed state send email reminder
 
-2. User Profiles
+User Profiles use Profile record
+
+Seed data for Users *app in Heroku needs it
 
 
-2.5 Group access codes
+Group access codes
 
 3. Users have many groups
 

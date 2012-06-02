@@ -9,19 +9,13 @@ class User < ActiveRecord::Base
                 :length => { :maximum => 50 },
                 :uniqueness => {:case_sensitive => false }
   #this also creates a virtual attr automatically called password_confirmation!!
-  validates :password, :presence => true, :length => { minimum: 6 }
-  validates :password_confirmation, :presence => true
+  validates :password, :presence => true, :length => { minimum: 6 }, :on => :create
+  validates :password_confirmation, :presence => true, :on => :create
   # validates_presence_of :password, :on => :create
   
   before_save { |user| user.email = email.downcase }
   before_save :create_remember_token
 
-
-  private
-      #for users
-      def create_remember_token
-        self.remember_token = SecureRandom.urlsafe_base64
-      end
 
 
   # before_create { generate_token(:auth_token) }
@@ -29,7 +23,7 @@ class User < ActiveRecord::Base
   def send_password_reset
         generate_token(:password_reset_token)
         self.password_reset_sent_at = Time.zone.now
-        save!
+        save!(:validate => false)
         UserMailer.password_reset(self).deliver
       end
     
@@ -40,6 +34,12 @@ class User < ActiveRecord::Base
         end while User.exists?(column => self[column])
       end
 
+  
+      private
+          #for users
+          def create_remember_token
+            self.remember_token = SecureRandom.urlsafe_base64
+          end
   
   #predefined queries
   scope :by_name, order(:name)
@@ -60,14 +60,16 @@ end
 #++
 # Table name: users
 #
-# * id              :integer         not null
-#   name            :string(255)
-#   subscribed      :boolean
-#   created_at      :datetime        not null
-#   updated_at      :datetime        not null
-#   email           :string(255)
-#   password_digest :string(255)
-#   remember_token  :string(255)
+# * id                     :integer         not null
+#   name                   :string(255)
+#   subscribed             :boolean
+#   created_at             :datetime        not null
+#   updated_at             :datetime        not null
+#   email                  :string(255)
+#   password_digest        :string(255)
+#   remember_token         :string(255)
+#   password_reset_token   :string(255)
+#   password_reset_sent_at :datetime
 #
 #  Indexes:
 #   index_users_on_remember_token  remember_token

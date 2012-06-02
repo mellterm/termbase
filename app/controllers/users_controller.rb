@@ -48,7 +48,7 @@ class UsersController < ApplicationController
     @allusers = User.order("created_at DESC")
     respond_to do |format|
       if @user.save
-        sign_in @user
+        log_in @user
         flash[:success] = t(:welcome_to_termbase)
         redirect_to @user 
         format.json { render json: @user, status: :created, location: @user }
