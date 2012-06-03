@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120602193052) do
+ActiveRecord::Schema.define(:version => 20120602230014) do
 
   create_table "associations", :force => true do |t|
     t.integer  "associator_id"
@@ -64,6 +64,15 @@ ActiveRecord::Schema.define(:version => 20120602193052) do
   create_table "languages", :force => true do |t|
     t.string   "name"
     t.string   "iso_code"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  create_table "locations", :force => true do |t|
+    t.string   "locality"
+    t.string   "country"
+    t.float    "latitude"
+    t.float    "longitude"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
   end

@@ -1,0 +1,24 @@
+<% title "Location" %>
+
+<p>
+  <strong>Locality:</strong>
+  <%= @location.locality %>
+</p>
+<p>
+  <strong>Country:</strong>
+  <%= @location.country %>
+</p>
+<p>
+  <strong>Latitude:</strong>
+  <%= @location.latitude.round(4) %>
+</p>
+<p>
+  <strong>Longitude:</strong>
+  <%= @location.longitude.round(4) %>
+</p>
+
+<p>
+  <%= link_to "Edit", edit_location_path(@location) %> |
+  <%= link_to "Destroy", @location, :confirm => 'Are you sure?', :method => :delete %> |
+  <%= link_to "View All", locations_path %>
+</p>

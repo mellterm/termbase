@@ -20,7 +20,7 @@ gem 'remote_table'
 gem 'metainspector'
 gem 'bootstrap-sass'
 gem 'bcrypt-ruby', '3.0.1'
-
+gem 'geocoder'
 group :development do
   gem 'rspec-rails', '2.3.0'
   gem "annotated-rails", "~> 0.0.2"

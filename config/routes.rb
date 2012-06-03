@@ -1,5 +1,7 @@
 Termbase::Application.routes.draw do
   
+  resources :locations
+
   resources :users
   resources :sessions, only: [:new, :create, :destroy]
   

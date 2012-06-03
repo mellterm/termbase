@@ -1,0 +1,31 @@
+<% title "Locations" %>
+
+Is there someone close, <%= current_user.name %>?
+<%= form_tag locations_path, :method => :get do %>
+  <p>
+    <%= text_field_tag :search, params[:search] %>
+    <%= submit_tag "Search Near", :name => nil %>
+<% end %>
+
+<% if @locations.present? %>
+<table>
+  <tr>
+    <th>Locality</th>
+    <th>Country</th>
+
+  </tr>
+  <% for location in @locations %>
+    <tr>
+      <td><%= location.locality %></td>
+      <td><%= location.country %></td>
+
+      <td><%= link_to "Add as my Location", add_as_location(location) %></td>
+    </tr>
+  <% end %>
+</table>
+  <% else %>
+	No results!
+  <% end %>
+#jquery delay display
+Didn't find a suitable location nearby? Then add your own...
+<p><%= link_to t(:enter_new_location), new_location_path %></p>

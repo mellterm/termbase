@@ -1,0 +1,32 @@
+
+Enter your location here:
+<div id="map"></div>
+
+<%= form_for @location do |f| %>
+  <%= f.error_messages %>
+<div class="input">
+		<p>
+		    <%= label_tag :city %><br />
+		    <%= text_field_tag :addresspicker_map %>
+		  </p>
+		  <p>
+		    <%= f.label :locality %><br />
+		    <%= f.text_field :locality, :readonly=> true %>
+		  </p>
+		  <p>
+		    <%= f.label :country %><br />
+		    <%= f.text_field :country, :readonly=> true %>
+		  </p>
+		  <p>
+		    <%= f.label :latitude %><br />
+		    <%= f.text_field :latitude, :readonly=> true %>
+		  </p>
+		  <p>
+		    <%= f.label :longitude %><br />
+		    <%= f.text_field :longitude, :readonly=> true %>
+		  </p>
+</div>
+  		<p><%= f.submit %></p>
+<% end %>
+		
+

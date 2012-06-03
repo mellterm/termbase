@@ -81,4 +81,4 @@ en:
       attributes:
           user:
               password_digest: password
-      
+  enter_new_location: "Enter a new location"      
