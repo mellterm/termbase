@@ -1,0 +1,36 @@
+<% title "Profile" %>
+
+<p>
+  <strong>Real Name:</strong>
+  <%= @profile.real_name %>
+</p>
+<p>
+  <strong>Birthday:</strong>
+  <%= @profile.birthday %>
+</p>
+<p>
+  <strong>Native Language:</strong>
+  <%= @profile.native_language_id %>
+</p>
+<p>
+  <strong>Bio:</strong>
+  <%= @profile.bio %>
+</p>
+<p>
+  <strong>Location:</strong>
+  <%= @profile.location_id %>
+</p>
+<p>
+  <strong>Badge:</strong>
+  <%= @profile.badge_id %>
+</p>
+<p>
+  <strong>User:</strong>
+  <%= @profile.user_id %>
+</p>
+
+<p>
+  <%= link_to "Edit", edit_profile_path(@profile) %> |
+  <%= link_to "Destroy", @profile, :confirm => 'Are you sure?', :method => :delete %> |
+  <%= link_to "View All", profiles_path %>
+</p>

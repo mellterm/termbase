@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120602230014) do
+ActiveRecord::Schema.define(:version => 20120603202142) do
 
   create_table "associations", :force => true do |t|
     t.integer  "associator_id"
@@ -29,6 +29,12 @@ ActiveRecord::Schema.define(:version => 20120602230014) do
     t.string   "authoritable_type"
     t.datetime "created_at",        :null => false
     t.datetime "updated_at",        :null => false
+  end
+
+  create_table "badges", :force => true do |t|
+    t.string   "name"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
   end
 
   create_table "comments", :force => true do |t|
@@ -84,6 +90,20 @@ ActiveRecord::Schema.define(:version => 20120602230014) do
     t.datetime "expires_on"
     t.boolean  "expired"
   end
+
+  create_table "profiles", :force => true do |t|
+    t.string   "real_name",          :null => false
+    t.date     "birthday"
+    t.integer  "native_language_id", :null => false
+    t.text     "bio"
+    t.integer  "badge_id",           :null => false
+    t.integer  "location_id"
+    t.integer  "user_id",            :null => false
+    t.datetime "created_at",         :null => false
+    t.datetime "updated_at",         :null => false
+  end
+
+  add_index "profiles", ["user_id", "badge_id"], :name => "user_badge_unique_index", :unique => true
 
   create_table "ratings", :force => true do |t|
     t.integer  "score"

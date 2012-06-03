@@ -1,0 +1,29 @@
+<% title "Profiles" %>
+
+<table>
+  <tr>
+    <th>Real Name</th>
+    <th>Birthday</th>
+    <th>Native Language</th>
+    <th>Bio</th>
+    <th>Location</th>
+    <th>Badge</th>
+    <th>User</th>
+  </tr>
+  <% for profile in @profiles %>
+    <tr>
+      <td><%= profile.real_name %></td>
+      <td><%= profile.birthday %></td>
+      <td><%= profile.native_language_id %></td>
+      <td><%= profile.bio %></td>
+      <td><%= profile.location_id %></td>
+      <td><%= profile.badge_id %></td>
+      <td><%= profile.user_id %></td>
+      <td><%= link_to "Show", profile %></td>
+      <td><%= link_to "Edit", edit_profile_path(profile) %></td>
+      <td><%= link_to "Destroy", profile, :confirm => 'Are you sure?', :method => :delete %></td>
+    </tr>
+  <% end %>
+</table>
+
+<p><%= link_to "New Profile", new_profile_path %></p>
