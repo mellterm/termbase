@@ -29,7 +29,7 @@
               <li><a href="#contact">Contact</a></li>
 					 <% if logged_in? %>
 						<li><%= link_to t(:logout), logout_path, method: "delete" %></li>
-						<li><%= link_to t(:myprofile), "#"  %></li>
+						<li><%= link_to t(:myprofiles), current_user  %></li>
 					 <% else %>
 						<li><%= link_to t(:login), login_path %></li>   
 					    <li><%= link_to t(:signup), signup_path %></li>     

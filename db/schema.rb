@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120603202142) do
+ActiveRecord::Schema.define(:version => 20120604062541) do
 
   create_table "associations", :force => true do |t|
     t.integer  "associator_id"
@@ -61,10 +61,12 @@ ActiveRecord::Schema.define(:version => 20120603202142) do
 
   create_table "groups", :force => true do |t|
     t.string   "group_type"
-    t.datetime "created_at",  :null => false
-    t.datetime "updated_at",  :null => false
+    t.datetime "created_at",       :null => false
+    t.datetime "updated_at",       :null => false
     t.string   "name"
     t.string   "access_code"
+    t.integer  "owner_id"
+    t.integer  "owner_profile_id"
   end
 
   create_table "languages", :force => true do |t|
@@ -159,6 +161,7 @@ ActiveRecord::Schema.define(:version => 20120603202142) do
     t.string   "remember_token"
     t.string   "password_reset_token"
     t.datetime "password_reset_sent_at"
+    t.integer  "location_id"
   end
 
   add_index "users", ["email"], :name => "index_users_on_email", :unique => true

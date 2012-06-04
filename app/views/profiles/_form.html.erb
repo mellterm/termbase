@@ -6,27 +6,26 @@
   </p>
   <p>
     <%= f.label :birthday %><br />
-    <%= f.date_select :birthday %>
+    <%= f.date_select(:birthday, :start_year => 1910, :order => [:day, :month, :year]) %>
   </p>
   <p>
     <%= f.label :native_language_id %><br />
-    <%= f.number_field :native_language_id %>
+    <%= f.collection_select(:native_language_id, Language.all, :id, :name) %>
+ 
   </p>
   <p>
     <%= f.label :bio %><br />
     <%= f.text_area :bio %>
   </p>
   <p>
-    <%= f.label :location_id %><br />
-    <%= f.number_field :location_id %>
+  	<%= f.hidden_field :user_id, :value => current_user.id  %>
+	<%= f.hidden_field :location_id, :value => 0  %>
   </p>
   <p>
     <%= f.label :badge_id %><br />
-    <%= f.number_field :badge_id %>
+    <%= f.collection_select(:badge_id, Badge.all, :id, :name) %>
   </p>
-  <p>
-    <%= f.label :user_id %><br />
-    <%= f.number_field :user_id %>
-  </p>
+
   <p><%= f.submit %></p>
 <% end %>
+

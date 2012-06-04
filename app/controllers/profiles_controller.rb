@@ -14,7 +14,7 @@ class ProfilesController < ApplicationController
   def create
     @profile = Profile.new(params[:profile])
     if @profile.save
-      redirect_to @profile, :notice => "Successfully created profile."
+      redirect_to locations_path, :notice => "Almost done."
     else
       render :action => 'new'
     end

@@ -11,6 +11,7 @@ class GroupsController < ApplicationController
 
   def new
     @group = Group.new
+    @owner_profiles = Profile.find_all_by_user_id(current_user)
   end
 
   def create

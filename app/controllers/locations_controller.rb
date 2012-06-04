@@ -17,8 +17,9 @@ class LocationsController < ApplicationController
 
   def create
     @location = Location.new(params[:location])
-    if @location.save
-        redirect_to @location, :notice => "Successfully created location."
+    if @location.save  
+          current_user.update_attribute(:location_id, @location)
+          redirect_to users_path, :notice => "Successfully created location."
     else
       render :action => 'new'
     end

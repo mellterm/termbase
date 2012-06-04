@@ -15,6 +15,7 @@ class UsersController < ApplicationController
   def show
     @user = User.find(params[:id])
     @title = @user.name
+    @profiles = Profile.find_all_by_user_id(@user)
     @allusers = User.order("created_at DESC")
     respond_to do |format|
       format.html # show.html.erb
@@ -50,7 +51,7 @@ class UsersController < ApplicationController
       if @user.save
         log_in @user
         flash[:success] = t(:welcome_to_termbase)
-        redirect_to @user 
+        redirect_to locations_path 
         format.json { render json: @user, status: :created, location: @user }
       else
         format.html { render action: "new" }

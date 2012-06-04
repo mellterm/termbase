@@ -70,6 +70,7 @@ end
 #   remember_token         :string(255)
 #   password_reset_token   :string(255)
 #   password_reset_sent_at :datetime
+#   location_id            :integer
 #
 #  Indexes:
 #   index_users_on_remember_token  remember_token

@@ -47,7 +47,7 @@ en:
   last_updated_by: "Last updated by"
   basic_information: "Basic Information"
   profile: "Profile"
-  myprofile: "My Profile"
+  myprofiles: "My Profiles"
   sales_pitch: "Sales pitch"
   website: "Website"
   choose_a_language: "Choose a language..."
@@ -81,4 +81,5 @@ en:
       attributes:
           user:
               password_digest: password
-  enter_new_location: "Enter a new location"      
+  enter_new_location: "Enter a new location" 
+  please_choose_a_location: "Please choose a location"     

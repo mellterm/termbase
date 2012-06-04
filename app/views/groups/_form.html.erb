@@ -1,10 +1,14 @@
 <%= form_for @group do |f| %>
   <%= f.error_messages %>
   <p>
-    <%= f.label :name %><br />
+    <%= f.label :name_for_group %><br />
     <%= f.text_field :name %>
   </p>
-
-
+	<p>
+		<%= f.label :choose_a_profile %><br />
+		<%= f.collection_select(:owner_profile_id, @owner_profiles, :id, :real_name) %>
+	</p>
+		<%= f.hidden_field :owner_id, :value => current_user.id  %>
+	
   <p><%= f.submit %></p>
 <% end %>

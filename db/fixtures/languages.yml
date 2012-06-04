@@ -1,36 +1,45 @@
 german:
+  id: 1
   iso_code: de
   name: German 
   
 german_de:
+  id: 2
   iso_code: de_de
   name: German (Germany)
  
 german_at:
+  id: 3
   iso_code: de_at
   name: German (Austria)
  
 english:
+  id: 4
   iso_code: en
   name: English 
  
 english_gb:
+  id: 5
   iso_code: en_gb
   name: English (GB)
 
 english_us:
+  id: 6
   iso_code: en_us
   name: English (US)            
 
 spanish:
+  id: 7
   iso_code: es
   name: Spanish    
   
 russian:
+  id: 8
   iso_code: ru
   name: Russian 
 
 russian_ru:
+  id: 9
   iso_code: ru_ru
   name: Russian (Russia)
   

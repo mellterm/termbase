@@ -5,6 +5,13 @@
   	<%= gravatar_for @user %><br/>
 	<%= @user.email %></br/>
 </p>
+<div class="profile_info">
+<% if @profiles.present? %>	
+		<% @profiles.each do |profile| %>
+		<%= render :partial => "/shared/shared_show_profile", :locals => {:profile => profile} %>
+		<% end %>
+<% end %>
+</div>
 
  <h1>Live Feed</h1>
     <p>	Live Feed Information Here.

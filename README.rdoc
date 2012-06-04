@@ -1,21 +1,31 @@
 == TODO
 
-1. fix reset password
-   localhost and/or deployed state send email reminder
+Password Reminder
+Make sure it works in production!
 
-User Profiles use Profile record
-
-Seed data for Users *app in Heroku needs it
-
-
-Group access codes
-
-3. Users have many groups
+Profiles
+Do modeling associations, form (optional/non-optional), views
 
 
-4 Users have many translations
+File Handler create Document
+Document class
+tmx, csv, pdf (cvs)
 
 
 
-5. Groups have many translations
+Groups
+Group access codes!
 
+
+
+
+
+
+User/Groups associations
+User associations with groups
+Users have many groups
+
+
+Translations 
+
+ONLINE

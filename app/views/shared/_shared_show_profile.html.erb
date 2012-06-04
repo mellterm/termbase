@@ -1,0 +1,31 @@
+<% title "Profile" %>
+
+<p>
+  <strong>Real Name:</strong>
+  <%=h profile.real_name %>
+</p>
+<p>
+  <strong>Birthday:</strong>
+  <%= distance_of_time_in_words_to_now(profile.birthday) %> old
+</p>
+<p>
+  <strong>Native Language:</strong>
+  <%= Language.find_by_id(profile.native_language_id).name %>
+</p>
+<p>
+  <strong>Bio:</strong>
+  <%=h profile.bio %>
+</p>
+<p>
+  <strong>Badge:</strong>
+  <%= Badge.find_by_id(profile.badge_id).name %>
+</p>
+<p>
+  <strong>User:</strong>
+  <%= User.find_by_id(profile.user_id).name %>
+</p>
+
+<p>
+  <%= link_to "Edit", edit_profile_path(profile) %> |
+  <%= link_to "Destroy", profile, :confirm => 'Are you sure?', :method => :delete %> |
+</p>

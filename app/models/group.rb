@@ -1,8 +1,13 @@
 class Group < ActiveRecord::Base
-  attr_accessible :type, :name, :access_code
+  attr_accessible :type, :name, :access_code, :owner_profile_id, :owner_id
+
+
 
   has_many :memberships
   has_many :users, :through => :memberships
+  
+  has_one :owner, :class_name => 'User'
+  has_one :owner_profile, :class_name => 'Profile'
   
   has_many :translations
   
@@ -17,7 +22,7 @@ class Group < ActiveRecord::Base
      def generate_access_code
        #also handles duplicates, self because refers to group not instance var
        begin
-         self.access_code = SecureRandom.urlsafe_base64(3)
+         self.access_code = SecureRandom.urlsafe_base64(5)
        end while self.class.exists?(access_code: access_code)
     end
         

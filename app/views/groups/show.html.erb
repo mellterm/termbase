@@ -9,6 +9,19 @@
   <%= @group.name %>
 </p>
 
+
+<%= @group.memberships.count %> members
+
+ <%= link_to "Invite new member", '#' %>
+
+<% if @group.memberships.present? %>
+<p>
+	Members:
+	<%= @group.memberships.each do |member| %>
+  		<%= member.name %>
+</p>	
+	<% end %>	
+<% end %>
 <p>
   <%= link_to "Edit", edit_group_path(@group) %> |
   <%= link_to "Destroy", @group, :confirm => 'Are you sure?', :method => :delete %> |
