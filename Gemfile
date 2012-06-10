@@ -9,7 +9,7 @@ gem 'sqlite3'
 gem 'pg'
 gem 'acts_as_versioned', :git => 'https://github.com/jwhitehorn/acts_as_versioned.git'
 
-gem 'paperclip'
+gem "paperclip", "~> 3.0"
 gem 'acts_as_tree'
 gem 'haml'
 gem 'formtastic', '1.2.3'
@@ -21,6 +21,10 @@ gem 'metainspector'
 gem 'bootstrap-sass'
 gem 'bcrypt-ruby', '3.0.1'
 gem 'geocoder'
+gem 'nokogiri'
+gem "activerecord-import", ">= 0.2.0"
+gem 'will_paginate', '~> 3.0'
+
 group :development do
   gem 'rspec-rails', '2.3.0'
   gem "annotated-rails", "~> 0.0.2"

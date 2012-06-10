@@ -1,63 +1,80 @@
-comp:
+survey:
    id: 1
-   code: COMP
-   name: Data processing & computer science
+   code: SURVEYING
+   name: Surveying
+   parent_id: 8
    
 eleceng:
    id: 2
    code: ELECENG
    name: Electricity & electronics
-   
-gentech:
+   parent_id: 
+       
+medical:
    id: 3
-   code: GENTECH
-   name: Technology
-   
+   code: MEDICAL
+   name: Medical/Hospitals
+   parent_id: 
+       
 auto:
    id: 4
    code: AUTO
-   name: Ground transportation/automotive engineering
-
-rail:
+   name: Automotive engineering
+   parent_id: 
+       
+pharma:
    id: 5
-   code: RAIL
-   name: Engineering of railroads, public rail/tram transportation
+   code: PHARMA
+   name: Pharmaceuticals
+   parent_id: 3
    
 legal:
    id: 6
    code: LEGAL
    name: Law
-   
+
 mecheng:
-   id: 7
+   id: 57
    code: MECHENG
    name: Mechanical Engineering
-   
+   parent_id: 
+       
 civileng:
    id: 8
    code: CONSTR
    name: Civil Engineering & Construction
- 
+   parent_id: 9
+        
 telecomm:
-   id: 9
-   code: TELECO
+   id: 81
+   code: TELECOM
    name: Telecommunications 
+   parent_id: 7
+   
+business:
+    id: 9
+    code: BUSINESS
+    name: Business
+    parent_id:   
    
 finance:
    id: 10
    code: FINANCE
    name: Technical (Business) & Finance
+   parent_id: 9
    
 projman:
-   id: 11
+   id: 21
    code: PROJMAN
    name: Project Management, Controlling
+   parent_id: 9
    
 marketing:
-   id: 12
+   id: 22
    code: MARKETING
    name: Advertising & Marketing
- 
+   parent_id: 9
+       
 general:
    id: 13
    code: GENERAL
@@ -68,16 +85,12 @@ gentech:
    code: GENTECH
    name: General, language-specific, technical
 
-techdoc:
-   id: 15
-   code: TECHDOC
-   name: Language of technical documentation
-
 cad:
    id: 16
    code: CAD
    name: Computer Aided Design
-
+   parent_id: 7
+   
 wood:
    id: 17
    code: WOOD

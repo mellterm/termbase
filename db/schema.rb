@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120604062541) do
+ActiveRecord::Schema.define(:version => 20120609202321) do
 
   create_table "associations", :force => true do |t|
     t.integer  "associator_id"
@@ -52,11 +52,24 @@ ActiveRecord::Schema.define(:version => 20120604062541) do
     t.datetime "updated_at",     :null => false
   end
 
+  create_table "documents", :force => true do |t|
+    t.string   "name"
+    t.string   "url"
+    t.integer  "owner_id"
+    t.string   "data_file_name"
+    t.string   "data_content_type"
+    t.integer  "data_file_size"
+    t.datetime "data_updated_at"
+    t.integer  "source_language_id"
+  end
+
   create_table "domains", :force => true do |t|
     t.string   "name"
     t.string   "code"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
+    t.integer  "document_id"
+    t.integer  "parent_id"
   end
 
   create_table "groups", :force => true do |t|
@@ -115,6 +128,14 @@ ActiveRecord::Schema.define(:version => 20120604062541) do
     t.datetime "updated_at",   :null => false
   end
 
+  create_table "reg_exes", :force => true do |t|
+    t.integer "language_id"
+    t.string  "regex_category"
+    t.text    "expression"
+  end
+
+  add_index "reg_exes", ["expression"], :name => "index_reg_exes_on_expression"
+
   create_table "translation_versions", :force => true do |t|
     t.integer  "translation_id"
     t.integer  "version"
@@ -146,6 +167,8 @@ ActiveRecord::Schema.define(:version => 20120604062541) do
     t.string   "ilk",                :default => "Term"
     t.datetime "created_at",                             :null => false
     t.datetime "updated_at",                             :null => false
+    t.integer  "document_id"
+    t.boolean  "is_public",          :default => true
   end
 
   add_index "translations", ["source_content", "target_content", "created_by_id", "group_id"], :name => "unique_trans_user_and_group", :unique => true

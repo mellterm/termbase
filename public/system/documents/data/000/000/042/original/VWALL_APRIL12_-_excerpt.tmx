@@ -1,0 +1,249 @@
+<?xml version="1.0" ?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+<header
+	 creationtool="TRADOS Translator's Workbench for Windows"
+	 creationtoolversion="Edition 8 Build 863"
+	 segtype="sentence"
+	 o-tmf="TW4Win 2.0 Format"
+	 adminlang="EN-US"
+	 srclang="DE-DE"
+	 datatype="rtf"
+	 creationdate="20120331T010538Z"
+	 creationid="MELLTERM"
+>
+<prop type="RTFFontTable">
+{\fonttbl 
+{\f1 \fmodern\fprq1 \fcharset0 Courier New;}
+{\f2 \fswiss\fprq2 \fcharset0 Arial;}
+{\f3 \fcharset204 Arial Cyr;}
+{\f4 \fcharset0 Times New Roman;}
+{\f5 \fcharset0 Microsoft Sans Serif;}
+{\f6 \fcharset0 Arial Unicode MS;}
+{\f7 \fcharset0 Arial Narrow;}
+{\f8 \fcharset0 Lucida Sans Unicode;}
+{\f9 \fcharset0 Lucida Console;}
+{\f10 \fcharset0 Gulim;}
+{\f11 \fcharset0 MS Mincho;}
+{\f12 \fcharset0 Verdana;}
+{\f13 \fcharset0 Tahoma;}
+{\f14 \fcharset0 MS Sans Serif;}
+{\f15 \fcharset0 MingLiU;}
+{\f16 \fbidi\froman\fprq2 {\*\panose 05050102010706020507}\fcharset2 Symbol;}
+{\f17 \fbidi\fswiss\fprq2 {\*\panose 020b0604020202020204}\fcharset0 Helvetica;}
+{\f18 \fbidi\fmodern\fprq1 {\*\panose 02070409020205020404}\fcharset0 Courier;}
+{\f19 \fbidi\froman\fprq2 {\*\panose 02020603040505020304}\fcharset0 Tms Rmn;}
+{\f20 \fbidi\fswiss\fprq2 {\*\panose 020b0604020202030204}\fcharset0 Helv;}
+{\f21 \fbidi\froman\fprq2 {\*\panose 02040503060506020304}\fcharset0 New York;}
+{\f22 \fbidi\fswiss\fprq2 {\*\panose 00000000000000000000}\fcharset0 System;}
+{\f23 \fbidi\fnil\fprq2 {\*\panose 05000000000000000000}\fcharset2 Wingdings;}
+{\f24 \fbidi\fmodern\fprq1 {\*\panose 02020609040205080304}{\*\falt \&apos;82l\&apos;82r \&apos;96\&apos;ae\&apos;92\&apos;94}\fcharset128 MS Mincho;}
+{\f25 \fbidi\fnil\fprq1 {\*\panose 02030600000101010101}{\*\falt \&apos;96\&apos;89\&apos;8f\&apos;91}\fcharset129 Batang;}
+{\f26 \fbidi\fnil\fprq2 {\*\panose 02010600030101010101}{\*\falt \&apos;85\&apos;9e\&apos;8a\&apos;86}\fcharset134 SimSun;}
+{\f27 \fbidi\fnil\fprq2 {\*\panose 02020500000000000000}{\*\falt \&apos;9cs\&apos;8d\&apos;85\&apos;94\&apos;9c\&apos;8f\&apos;82}\fcharset136 PMingLiU;}
+{\f28 \fbidi\fmodern\fprq1 {\*\panose 020b0609070205080204}{\*\falt \&apos;82l\&apos;82r \&apos;9fS\&apos;9fV\&apos;9fb\&apos;9fN}\fcharset128 MS Gothic;}
+{\f29 \fbidi\fmodern\fprq1 {\*\panose 020b0600000101010101}{\*\falt \&apos;91\&apos;94\&apos;97\&apos;95}\fcharset129 Dotum;}
+{\f30 \fbidi\fmodern\fprq1 {\*\panose 02010609060101010101}{\*\falt \&apos;84\&apos;82\&apos;8a\&apos;86}\fcharset134 SimHei;}
+{\f31 \fbidi\fmodern\fprq1 {\*\panose 02020509000000000000}{\*\falt \&apos;8d\&apos;85\&apos;94\&apos;9c\&apos;8f\&apos;82}\fcharset136 MingLiU;}
+{\f32 \fbidi\froman\fprq1 {\*\panose 02020609040305080305}{\*\falt \&apos;96\&apos;ae\&apos;92\&apos;94}\fcharset128 Mincho;}
+{\f33 \fbidi\froman\fprq1 {\*\panose 020b0600000101010101}{\*\falt \&apos;d8\&apos;dd\&apos;94\&apos;8d}\fcharset129 Gulim;}
+{\f34 \fbidi\froman\fprq2 {\*\panose 02040604050505020304}\fcharset0 Century;}
+{\f35 \fbidi\froman\fprq2 {\*\panose 02020603050405020304}\fcharset222 Angsana New;}
+{\f36 \fbidi\froman\fprq2 {\*\panose 020b0304020202020204}\fcharset222 Cordia New;}
+{\f37 \fbidi\froman\fprq2 {\*\panose 02040503050203030202}\fcharset1 Mangal;}
+{\f38 \fbidi\froman\fprq2 {\*\panose 020b0604020202020204}\fcharset1 Latha;}
+{\f39 \fbidi\froman\fprq2 {\*\panose 010a0502050306030303}\fcharset0 Sylfaen;}
+{\f40 \fbidi\froman\fprq2 {\*\panose 020b0502040204020203}\fcharset1 Vrinda;}
+{\f41 \fbidi\froman\fprq2 {\*\panose 020b0502040204020203}\fcharset1 Raavi;}
+{\f42 \fbidi\froman\fprq2 {\*\panose 020b0502040204020203}\fcharset1 Shruti;}
+{\f43 \fbidi\froman\fprq2 {\*\panose 00000400000000000000}\fcharset1 Sendnya;}
+{\f44 \fbidi\froman\fprq2 {\*\panose 020b0502040204020203}\fcharset1 Gautami;}
+{\f45 \fbidi\froman\fprq2 {\*\panose 020b0502040204020203}\fcharset1 Tunga;}
+{\f46 \fbidi\froman\fprq2 {\*\panose 03080600000000000000}\fcharset1 Estrangelo Edessa;}
+{\f47 \fbidi\froman\fprq2 {\*\panose 02040503050406030204}\fcharset0 Cambria Math;}
+{\f48 \fbidi\froman\fprq2 {\*\panose 02040503050406030204}\fcharset0 Cambria;}
+{\f49 \fbidi\fswiss\fprq2 {\*\panose 020f0502020204030204}\fcharset0 Calibri;}
+{\f50 \fbidi\fswiss\fprq2 {\*\panose 020b0503000000020003}{\*\falt Arial}\fcharset0 VW Headline OT-Book;}
+{\f51 \fbidi\fswiss\fprq2 {\*\panose 020b0a03000000020003}\fcharset0 VW Headline OT-Black;}
+{\f52 \fbidi\froman\fprq2 {\*\panose 05030102010509060703}\fcharset2 Webdings;}
+{\f53 \fbidi\fswiss\fprq2 {\*\panose 020b0503040200000003}{\*\falt VW Headline OT-Book}\fcharset0 Audi Type;}
+{\f54 \fbidi\fnil\fprq2 {\*\panose 00000400000000000000}{\*\falt Courier New}\fcharset0 AudiLogo;}
+{\f55 \fbidi\froman\fprq2 {\*\panose 00000000000000000000}\fcharset0 CG Times (WN);}
+{\f56 \fbidi\froman\fprq2 \fcharset238 Times New Roman CE;}
+{\f57 \fbidi\froman\fprq2 \fcharset204 Times New Roman Cyr;}
+{\f58 \fbidi\froman\fprq2 \fcharset161 Times New Roman Greek;}
+{\f59 \fbidi\froman\fprq2 \fcharset162 Times New Roman Tur;}
+{\f60 \fbidi\froman\fprq2 \fcharset177 Times New Roman (Hebrew);}
+{\f61 \fbidi\froman\fprq2 \fcharset178 Times New Roman (Arabic);}
+{\f62 \fbidi\froman\fprq2 \fcharset186 Times New Roman Baltic;}
+{\f63 \fbidi\froman\fprq2 \fcharset163 Times New Roman (Vietnamese);}
+{\f64 \fbidi\fswiss\fprq2 \fcharset238 Arial CE;}
+{\f65 \fbidi\fswiss\fprq2 \fcharset161 Arial Greek;}
+{\f66 \fbidi\fswiss\fprq2 \fcharset162 Arial Tur;}
+{\f67 \fbidi\fswiss\fprq2 \fcharset177 Arial (Hebrew);}
+{\f68 \fbidi\fswiss\fprq2 \fcharset178 Arial (Arabic);}
+{\f69 \fbidi\fswiss\fprq2 \fcharset186 Arial Baltic;}
+{\f70 \fbidi\fswiss\fprq2 \fcharset163 Arial (Vietnamese);}
+{\f71 \fbidi\fmodern\fprq1 \fcharset238 Courier New CE;}
+{\f72 \fbidi\fmodern\fprq1 \fcharset204 Courier New Cyr;}
+{\f73 \fbidi\fmodern\fprq1 \fcharset161 Courier New Greek;}
+{\f74 \fbidi\fmodern\fprq1 \fcharset162 Courier New Tur;}
+{\f75 \fbidi\fmodern\fprq1 \fcharset177 Courier New (Hebrew);}
+{\f76 \fbidi\fmodern\fprq1 \fcharset178 Courier New (Arabic);}
+{\f77 \fbidi\fmodern\fprq1 \fcharset186 Courier New Baltic;}
+{\f78 \fbidi\fmodern\fprq1 \fcharset163 Courier New (Vietnamese);}
+{\f79 \fbidi\fswiss\fprq2 \fcharset238 Helvetica CE;}
+{\f80 \fbidi\fswiss\fprq2 \fcharset204 Helvetica Cyr;}
+{\f81 \fbidi\fswiss\fprq2 \fcharset161 Helvetica Greek;}
+{\f82 \fbidi\fswiss\fprq2 \fcharset162 Helvetica Tur;}
+{\f83 \fbidi\fswiss\fprq2 \fcharset177 Helvetica (Hebrew);}
+{\f84 \fbidi\fswiss\fprq2 \fcharset178 Helvetica (Arabic);}
+{\f85 \fbidi\fswiss\fprq2 \fcharset186 Helvetica Baltic;}
+{\f86 \fbidi\fswiss\fprq2 \fcharset163 Helvetica (Vietnamese);}
+{\f87 \fbidi\fmodern\fprq1 {\*\falt \&apos;82l\&apos;82r \&apos;96\&apos;ae\&apos;92\&apos;94}\fcharset0 MS Mincho Western;}
+{\f88 \fbidi\fmodern\fprq1 {\*\falt \&apos;82l\&apos;82r \&apos;96\&apos;ae\&apos;92\&apos;94}\fcharset238 MS Mincho CE;}
+{\f89 \fbidi\fmodern\fprq1 {\*\falt \&apos;82l\&apos;82r \&apos;96\&apos;ae\&apos;92\&apos;94}\fcharset204 MS Mincho Cyr;}
+{\f90 \fbidi\fmodern\fprq1 {\*\falt \&apos;82l\&apos;82r \&apos;96\&apos;ae\&apos;92\&apos;94}\fcharset161 MS Mincho Greek;}
+{\f91 \fbidi\fmodern\fprq1 {\*\falt \&apos;82l\&apos;82r \&apos;96\&apos;ae\&apos;92\&apos;94}\fcharset162 MS Mincho Tur;}
+{\f92 \fbidi\fmodern\fprq1 {\*\falt \&apos;82l\&apos;82r \&apos;96\&apos;ae\&apos;92\&apos;94}\fcharset186 MS Mincho Baltic;}
+{\f93 \fbidi\fnil\fprq2 {\*\falt \&apos;85\&apos;9e\&apos;8a\&apos;86}\fcharset0 SimSun Western;}
+{\f94 \fbidi\fmodern\fprq1 {\*\falt \&apos;82l\&apos;82r \&apos;9fS\&apos;9fV\&apos;9fb\&apos;9fN}\fcharset0 MS Gothic Western;}
+{\f95 \fbidi\fmodern\fprq1 {\*\falt \&apos;82l\&apos;82r \&apos;9fS\&apos;9fV\&apos;9fb\&apos;9fN}\fcharset238 MS Gothic CE;}
+{\f96 \fbidi\fmodern\fprq1 {\*\falt \&apos;82l\&apos;82r \&apos;9fS\&apos;9fV\&apos;9fb\&apos;9fN}\fcharset204 MS Gothic Cyr;}
+{\f97 \fbidi\fmodern\fprq1 {\*\falt \&apos;82l\&apos;82r \&apos;9fS\&apos;9fV\&apos;9fb\&apos;9fN}\fcharset161 MS Gothic Greek;}
+{\f98 \fbidi\fmodern\fprq1 {\*\falt \&apos;82l\&apos;82r \&apos;9fS\&apos;9fV\&apos;9fb\&apos;9fN}\fcharset162 MS Gothic Tur;}
+{\f99 \fbidi\fmodern\fprq1 {\*\falt \&apos;82l\&apos;82r \&apos;9fS\&apos;9fV\&apos;9fb\&apos;9fN}\fcharset186 MS Gothic Baltic;}
+{\f100 \fbidi\froman\fprq2 \fcharset204 Sylfaen Cyr;}
+{\f101 \fbidi\froman\fprq2 \fcharset161 Sylfaen Greek;}
+{\f102 \fbidi\froman\fprq2 \fcharset238 Cambria Math CE;}
+{\f103 \fbidi\froman\fprq2 \fcharset204 Cambria Math Cyr;}
+{\f104 \fbidi\froman\fprq2 \fcharset161 Cambria Math Greek;}
+{\f105 \fbidi\froman\fprq2 \fcharset162 Cambria Math Tur;}
+{\f106 \fbidi\froman\fprq2 \fcharset186 Cambria Math Baltic;}
+{\f107 \fbidi\froman\fprq2 \fcharset163 Cambria Math (Vietnamese);}
+{\f108 \fbidi\froman\fprq2 \fcharset238 Cambria CE;}
+{\f109 \fbidi\froman\fprq2 \fcharset204 Cambria Cyr;}
+{\f110 \fbidi\froman\fprq2 \fcharset161 Cambria Greek;}
+{\f111 \fbidi\froman\fprq2 \fcharset162 Cambria Tur;}
+{\f112 \fbidi\froman\fprq2 \fcharset186 Cambria Baltic;}
+{\f113 \fbidi\froman\fprq2 \fcharset163 Cambria (Vietnamese);}
+{\f114 \fbidi\fswiss\fprq2 \fcharset238 Calibri CE;}
+{\f115 \fbidi\fswiss\fprq2 \fcharset204 Calibri Cyr;}
+{\f116 \fbidi\fswiss\fprq2 \fcharset161 Calibri Greek;}
+{\f117 \fbidi\fswiss\fprq2 \fcharset162 Calibri Tur;}
+{\f118 \fbidi\fswiss\fprq2 \fcharset186 Calibri Baltic;}
+{\f119 \fbidi\fswiss\fprq2 \fcharset163 Calibri (Vietnamese);}
+{\f120 \fbidi\fswiss\fprq2 {\*\falt Arial}\fcharset238 VW Headline OT-Book CE;}
+{\f121 \fbidi\fswiss\fprq2 {\*\falt Arial}\fcharset204 VW Headline OT-Book Cyr;}
+{\f122 \fbidi\fswiss\fprq2 {\*\falt Arial}\fcharset161 VW Headline OT-Book Greek;}
+{\f123 \fbidi\fswiss\fprq2 {\*\falt Arial}\fcharset162 VW Headline OT-Book Tur;}
+{\f124 \fbidi\fswiss\fprq2 {\*\falt Arial}\fcharset186 VW Headline OT-Book Baltic;}
+{\f125 \fbidi\fswiss\fprq2 \fcharset238 VW Headline OT-Black CE;}
+{\f126 \fbidi\fswiss\fprq2 \fcharset204 VW Headline OT-Black Cyr;}
+{\f127 \fbidi\fswiss\fprq2 \fcharset161 VW Headline OT-Black Greek;}
+{\f128 \fbidi\fswiss\fprq2 \fcharset162 VW Headline OT-Black Tur;}
+{\f129 \fbidi\fswiss\fprq2 \fcharset186 VW Headline OT-Black Baltic;}
+{\f130 \fbidi\fswiss\fprq2 \fcharset238 Tahoma CE;}
+{\f131 \fbidi\fswiss\fprq2 \fcharset204 Tahoma Cyr;}
+{\f132 \fbidi\fswiss\fprq2 \fcharset161 Tahoma Greek;}
+{\f133 \fbidi\fswiss\fprq2 \fcharset162 Tahoma Tur;}
+{\f134 \fbidi\fswiss\fprq2 \fcharset177 Tahoma (Hebrew);}
+{\f135 \fbidi\fswiss\fprq2 \fcharset178 Tahoma (Arabic);}
+{\f136 \fbidi\fswiss\fprq2 \fcharset186 Tahoma Baltic;}
+{\f137 \fbidi\fswiss\fprq2 \fcharset163 Tahoma (Vietnamese);}
+{\f138 \fbidi\fswiss\fprq2 \fcharset222 Tahoma (Thai);}
+{\f139 \fbidi\fswiss\fprq2 {\*\falt VW Headline OT-Book}\fcharset238 Audi Type CE;}
+{\f140 \fbidi\fswiss\fprq2 {\*\falt VW Headline OT-Book}\fcharset162 Audi Type Tur;}
+{\f141 \fbidi\fswiss\fprq2 {\*\falt VW Headline OT-Book}\fcharset186 Audi Type Baltic;}
+{\f142 \fbidi\fswiss\fprq2 \fcharset238 Verdana CE;}
+{\f143 \fbidi\fswiss\fprq2 \fcharset204 Verdana Cyr;}
+{\f144 \fbidi\fswiss\fprq2 \fcharset161 Verdana Greek;}
+{\f145 \fbidi\fswiss\fprq2 \fcharset162 Verdana Tur;}
+{\f146 \fbidi\fswiss\fprq2 \fcharset186 Verdana Baltic;}
+{\f147 \fbidi\fswiss\fprq2 \fcharset163 Verdana (Vietnamese);}
+{\f148 \fcharset0 Arial Black;}
+{\f149 \fbidi\fswiss\fprq2 {\*\panose 00000000000000000000}{\*\falt Arial}\fcharset0 Univers;}
+{\f150 \fbidi\fmodern\fprq1 {\*\panose 02020609040205080304}\fcharset128 @MS Mincho;}
+{\f151 \fbidi\fmodern\fprq1 \fcharset0 @MS Mincho Western;}
+{\f152 \fbidi\fmodern\fprq1 \fcharset238 @MS Mincho CE;}
+{\f153 \fbidi\fmodern\fprq1 \fcharset204 @MS Mincho Cyr;}
+{\f154 \fbidi\fmodern\fprq1 \fcharset161 @MS Mincho Greek;}
+{\f155 \fbidi\fmodern\fprq1 \fcharset162 @MS Mincho Tur;}
+{\f156 \fbidi\fmodern\fprq1 \fcharset186 @MS Mincho Baltic;}}</prop>
+<prop type="RTFStyleSheet">
+{\stylesheet 
+{\St \s0 {\StN Normal}}
+{\St \cs1 {\StB \v\f1\fs24\sub\cf12 }{\StN tw4winMark}}
+{\St \cs2 {\StB \cf4\fs40\f1 }{\StN tw4winError}}
+{\St \cs3 {\StB \f1\cf11\lang1024 }{\StN tw4winPopup}}
+{\St \cs4 {\StB \f1\cf10\lang1024 }{\StN tw4winJump}}
+{\St \cs5 {\StB \f1\cf15\lang1024 }{\StN tw4winExternal}}
+{\St \cs6 {\StB \f1\cf6\lang1024 }{\StN tw4winInternal}}
+{\St \cs7 {\StB \cf2 }{\StN tw4winTerm}}
+{\St \cs8 {\StB \f1\cf13\lang1024 }{\StN DO_NOT_TRANSLATE}}
+{\St \cs9 \additive\ssemihidden\spriority0 {\StN Default Paragraph Font}}
+{\St \cs10 \additive\spriority0 {\StB \f2 }{\StN page number}}
+{\St \cs11 \additive\sunhideused0\spriority0 {\StB \ul\cf2 }{\StN Hyperlink}}
+{\St \cs12 \additive\slink43\slocked\spriority0 {\StB \f55\fs24 }{\StN Textk\&apos;f6rper Zchn}}
+{\St \cs13 \additive\slink46\slocked\spriority0 {\StB \b\i\f48\fs22\cf17 }{\StN MM Topic 4 Zchn}}
+{\St \cs14 \additive\spriority0 {\StB \cf2 }{\StN m1}}
+{\St \cs15 \additive\spriority0 {\StB \cf18 }{\StN t1}}
+{\St \cs16 \additive\spriority0 {\StB \b\strike0\f1\ulnone\cf6\animtext0\striked0 }{\StN b1}}
+{\St \cs17 \additive\ssemihidden\sunhideused0 {\StB \fs16 }{\StN annotation reference}}
+{\St \cs18 \additive\slink52\slocked\ssemihidden {\StB \loch\f49\hich\af49\dbch\af49 }{\StN Kommentartext Zchn}}
+{\St \cs19 \additive\slink54\slocked\ssemihidden {\StB \f2 }{\StN Textk\&apos;f6rper-Zeileneinzug Zchn}}
+{\St \cs20 \additive\slink56\slocked\sbasedon19 {\StB \rtlch\af2\ltrch\f2 }{\StN Textk\&apos;f6rper-Erstzeileneinzug 2 Zchn}}
+{\St \cs21 \additive\slink59\slocked\ssemihidden {\StB \f13\fs16 }{\StN Sprechblasentext Zchn}}
+{\St \cs22 \additive\slink59\slocked\ssemihidden {\StB \f13\fs16 }{\StN Sprechblasentext Zchn1}}
+{\St \cs23 \additive\slink7\slocked\spriority0 {\StB \fs24 }{\StN \&apos;dcberschrift 7 Zchn}}
+{\St \cs24 \additive\slink6\slocked\spriority0 {\StB \b\f2\fs22 }{\StN \&apos;dcberschrift 6 Zchn}}
+{\St \cs25 \additive\sqformat\spriority0 {\StB \b }{\StN Strong}}
+{\St \cs26 \additive\slink8\slocked\spriority0 {\StB \i\fs24 }{\StN \&apos;dcberschrift 8 Zchn}}}</prop>
+</header>
+
+<body>
+<tu creationdate="20110630T142241Z" creationid="DREFS">
+<tuv xml:lang="DE-DE">
+<seg>ZSB Radabdeckung Tür hinten</seg>
+</tuv>
+<tuv xml:lang="EN-US">
+<seg>Rear door wheel cover assembly</seg>
+</tuv>
+</tu>
+
+<tu creationdate="20110630T142241Z" creationid="DREFS">
+<tuv xml:lang="DE-DE">
+<seg>Konzernlastenheft LAH 1S0.854.819/820</seg>
+</tuv>
+<tuv xml:lang="EN-US">
+<seg>Group Performance Specifications LAH 1S0.854.819/820</seg>
+</tuv>
+</tu>
+
+<tu creationdate="20110630T142241Z" creationid="DREFS" changedate="20120331T010727Z" changeid="MELLTERM">
+<prop type="Txt::Fahrzeugprojekt">AUDI MLB2, Golf, Up!, Golf Plus, MLbevo, AUDI, Längs- und Querplattformen, New Beetle, MLB, eUp!, NSF, NMS, Golf VII, MQB, VW25x, PQ35, AU 49x, MLB evo, Golf GTI</prop>
+<prop type="Txt::Teilnummer">LAH 4M0.407.A, LAH.3C8.941.B, LAH.5G6.863.B, 1S0.845.011, LAH.8K0.407, LAH.059.906.E, LAH.5GG.941, LAH.5G0.941, LAH.5G0.906.B, LAH.04L.105.243, LAH.5C3.845.011, 04L.911.A, LAH.12E.915.S, 059.911.B, 561.971.830.E, 5G6.845.051., LAH 04E.103.011, 5G0.867.D, LAH.5Q0.885, 5G0.845.411.B, 5G0.601.147, 5G0.806.239, LAH.5G0.819, LAH.5G0.857.F, LAH.12E.941, LAH.5G0.857.E, LAH.5G0.857.G, LAH.5G0.858.E, 5G0 601 025 A, LAH.5G0.867.D, LAH.5G0.867.J, 5G0.601.025.*, LAH.5G0.867.K, 1S0.845.041, 5G1.819.403, LAH.5G0.858.C, 04E.103.170, LAH.1K0.200, LAH.4H0.900.B, LAH.5G9.943.021, 5Q0.615.E, 5G6.853.859, LAH.893.959.D, 5G0.823.723, LAH.5M0.072, LAH 5G0.805.911.D, LAH 5G0.854.855, 5G6.827.933, LAH.5Q0.407.271, 5G0.071.498, 5C3.827.933, 5G3.845.041, 5G6.845.215, LAH.5G3.845.201, 5G0.845.011, 5G0.845.011.</prop>
+<prop type="Txt::Teilebenennung">Radnaben VA + Quattro MLBevo, Lichtmodul, Hauptscheinwerfer, Rohbaunaher Bodenbelag, Anhang LAH Frontscheibe, Front- und Heckend, CAN Transport, Entw LAH FrontHeckend, Radlager, Magnetschalter Module Erprobung, OBD Anforderungen für abgasrelevante, Drehschwingungsdämpfer, Frontscheibe, Starter, Combo-Stecker, Halter Stecker NoX Sensor, Anhang LAH Heckscheibe, ZSB Zylinderkurbelgehaeuse, Seitenverkleidung, Hintersitz-Struktur, Seitenscheibe vorn, schwarz, Radzierblende, Wasserkasten Vorderwand, Personenausströmer, Zwischenstück Auströmer/Defrost, Taglichtfahrmodul, Instrumententafel, Spaltabdeckung, Lenkstockverkleidung, Leichtmetallrad, Zuziehgriff, Schalterblende, Kurzspecs R-EPS, Seitenscheibe, Wasserkastendeckel, Dekorblenden, Dichtflansch hinten, Kraftstoffoerderung, EMV Kleinmotoren, Kennzeichenleuchte, Vorderradbremse, Schwellerbeplankung, EMV Kuehlerluefter, Dichtungssystem, Windabweiser, ZSB Radhausschale vorn, ZSB Schwellerabdeckung, Heckspoiler, ZSB Gelenkwelle, Lenksäule Eigenschaften, Anhang Lastenheft Seitenscheibe, Anhang Lastenheft Dreieckscheibe, Anhang Lastenheft Türscheiben, Frontscheibe Anhang</prop>
+<prop type="Txt::Vorlage">2009_11_BTLAH_Basis_V14, 2009_11_BTLAH_EE_V13, 2009_11_BTLAH_Erprobung_V5, 2009_11_BTLAH_EMV_V1.7, 2009_11_BTLAH_AllgDiagn_V7, 2009_11_BTLAH_KompDiagn_V7, 2009_11_BTLAH_EE_StgSW_V13, 2010_05_BTLAH_Basis_V15</prop>
+<tuv xml:lang="DE-DE">
+<seg><ut>{\cs6\f1\cf6\lang1024  </ut>&lt;cf size=&quot;10&quot; complexscriptssize=&quot;10&quot;&gt;<ut>}</ut>Seite <ut>{\cs6\f1\cf6\lang1024  </ut>&lt;field/&gt;<ut>}</ut> von <ut>{\cs6\f1\cf6\lang1024  </ut>&lt;field/&gt;&lt;/cf&gt;<ut>}</ut></seg>
+</tuv>
+<tuv xml:lang="EN-US">
+<seg><ut>{\cs6\f1\cf6\lang1024  </ut>&lt;cf size=&quot;10&quot; complexscriptssize=&quot;10&quot;&gt;<ut>}</ut>Page <ut>{\cs6\f1\cf6\lang1024  </ut>&lt;field/&gt;<ut>}</ut> of <ut>{\cs6\f1\cf6\lang1024  </ut>&lt;field/&gt;&lt;/cf&gt;<ut>}</ut></seg>
+</tuv>
+</tu>
+
+<tu creationdate="20110630T142241Z" creationid="DREFS" changedate="20111012T111239Z" changeid="HEIKAMP, STEPHANIE">
+<prop type="Txt::Fahrzeugprojekt">MQB A1, AUDI MLB2, EA888, Golf, AUDI, Up!, Polo, Passat, MIB, MLbevo, MQB, Passat B8, VW120, Längs- und Querplattformen, VW327, New Beetle, A-Entry, MLB, eUp!, NSF, NMS, Golf VII, EA 211, VW25x, UP, PQ35, EA211, AU 49x, Audi A4, A6, Q5, PQ26, MLB evo, Golf Plus, Golf GTI, E-Golf VII, NSF/Golf, Q7</prop>
+<prop type="Txt::Teilnummer">LAH.5Q0.863.D, LAH 4M0.407.A, LAH.06K.103.Q, LAH.06K.103.B, LAH.3C8.941.B, LAH.5G6.863.B, LAH.06K.131.B, 1S0.845.011, LAH.5Q0.863.A/B, LAH.5QF.857/LAH 5TA.857, LAH 04E.133.317.A, LAH.0CV.301, LAH.3G0.857, LAH.8W0.907.L, LAH.04E.103.469, LAH.06K.103.K, LAH.8K0.407, LAH.02M.911.B, LAH 5TA.857, LAH.5QD.253., LAH.DUM.857.D, LAH.5Q0.863.E, LAH.3G8.857, LAH.059.906.E, LAH.3G0.857.511.B, LAH.04E.133.313.A, LAH 04B 145 Ladeluftkühler, LAH.8VD.857, LAH 5QD.820.803.A, LAH.5QD.711.049, LAH.DUM.800.A, LAH.5G0.906.B, LAH.04L.105.243, 04E.127.026.B, LAH 5QD.713.025, 123.456.789, LAH.5C5.845.041, LAH.34D.253, LAH.06K.121.D, LAH.5C3.845.011, 5QD.615.C, LAH 5QD.713.025.A, 04L.911.A, LAH.12E.915.S, LAH.04E.107.065, LAH.06K.905.B, LAH 5K1.713.025.A, LAH 079.919.A, 059.911.B, 561.971.830.E, LAH.06K.906.B, 5G6.845.051., LAH.06K.919, LAH 04E.127.026, LAH 04E.103.011, 06J.906.A, LAH 5K1.713.025.B, 06H.906.G, LAH 5Q1.713.025.A, 5G0.867.D, LAH.5Q0.885, 5G0.845.411.B, 5Q1.713.025.B, 5G0.601.147, LAH.5G0.858.A, 5G0.806.239, LAH.5G0.819, LAH.5G0.858.B, LAH.5G0.857.F, LAH.12E.941, LAH.5GG.857, LAH.5G0.857.E, LAH.5G0.857.G, LAH.5G0.863.A, LAH.5G0.858.E, 5G0 601 025 A, LAH.5G0.867.D, LAH.5G0.867.J, 5G0.601.025.*, LAH.5G0.867.K, 5G0.419.091., LAH.5Q0.199.B, LAH.5Q0.253.C, 1S0.845.041, LAH.5Q0.199.A, LAH.5GG.955., 5G1.819.403, 5Q0.820.XXX, 1K0.501.611.K, 5Q0.407.365, LAH.5GG.955, LAH.04C.905.A, LAH.5G0.858.C, 04E.103.170, LAH.5Q0.615.D, LAH 04E.103.153.C, LAH.5Q0.199.C, LAH.5Q0.407.D, LAH.1K0.200, LAH 04E.199.275.L, LAH.4H0.900.B, LAH.5G9.943.021, LAH 1S0. 915.331, LAH.0DH.300.A, LAH.6C0.959.655, 5Q0.615.E, 5G6.853.859, LAH.893.959.D, 5G0.823.723, 517.800.345, 5Q0.614, LAH.5M0.072, 5Q0.407.621, LAH.5G0.881.A, LAH 5G0.805.911.D, LAH 5G0.854.855, 5G6.827.933, LAH.0EA.901.090, LAH.517.837.885, LAH.5Q0.407.271, 5G0.071.498, LAH.5Q0.820.803, LAH.04E.130.241, LAH.06L.115, LAH.0EC.901.090, LAH.510.980, 5C3.827.933, LAH 5Q0.711.303.L, 893.880.J, LAH.02M.911, LAH.893.880.AD, LAH.DUM.880.DB, LAH.WHT.003.864, LA.DUM.800.L, LAH.4M0.863 C, LAH 5G0.947.109, 5G3.845.041, LAH 12E.915.AE, 5G6.845.215, LAH.5G3.845.201, LAH 510.919, LAH.12E.907.E, LAH.DUM.880, 5G0.845.011, LAH.DUM.880.DD, 5G0.845.011.</prop>
+<prop type="Txt::Teilebenennung">ZSB Bodenbelag, Radnaben VA + Quattro MLBevo, Zylinderkopf, Lichtmodul, Hauptscheinwerfer, Rohbaunaher Bodenbelag, Drosselklappen, Anhang LAH Frontscheibe, Dämpfung Stirnwand innen/außen, Sicherheitsgurte, ZSB Krafstoffverteiler CNG, Abgasanlage, Schaltgetriebe Getriebegehaeuse, Sicherheitsgurte VW481, Display Unit, Zylinderkopfhaube, Ölwannenunterteil, Radlager, Starter Vierzylinder, Abgasanlage China, Konzern-LAH Sicherheitsgurte und Gurtschlösser, Kunststoffteile, Sicherheitsgurte VW 484, Magnetschalter Module Erprobung, Innenspiegel, automatisch abblendbar, ZSB Kraftstoffverteiler, Gurtschloss China, Kaeltemittelverdichter, ZSB Schaltgehaeuse, Allg Aufbaulastenheft, OBD Anforderungen für abgasrelevante, Vorladewiderstand, Drehschwingungsdämpfer, Hochdruckpumpe, Sicherheitsgurt, Seitenscheibe, Wasserbehaelter, Kühlmittelregler, Frontscheibe, Bremsscheiben, Starter, Combo-Stecker, Kolben, Klopfsensor, Waehlhebelmechanik f. Getriebe, Medientemperatursensor, Halter Stecker NoX Sensor, Saugrohrdrucksensor, Anhang LAH Heckscheibe, Öldruckschalter, ZSB Zylinderkurbelgehaeuse, Kraftstoffhochdrucksensor, Waehlbetaetigung f. Getriebe, Kraftstoffniederdrucksensor, Seitenverkleidung, Hintersitz-Struktur, Seitenscheibe vorn, schwarz, Wählhebelmechanik, Radzierblende, Blende, Wasserkasten Vorderwand, Personenausströmer, Schliessteil, Zwischenstück Auströmer/Defrost, Taglichtfahrmodul, Sicherheitsgurte 370CN, Instrumententafel, Spaltabdeckung, Fussraumabdeckung, Lenkstockverkleidung, Leichtmetallrad, Zuziehgriff, Frontend Teil 1, Schalterblende, Airbag-Lenkrad, ZSB Getriebelager, vorn ULEV2, ZSB Motorlager, Frontwischhebel, Wasserkastendeckel, Kaeltemittelleitung, Hinterachsradlager, C-EPS Basismodul Lenkung, ZSB Fuehrungsgelenk, Frontwischeranlage, Zuendkerzen M12, Dekorblenden, Dichtflansch hinten, ZSB Radbremsen Hinterachse, Dichtflansch vorn, Gummimatten, ZSB Stütze_Rundlager, LAH.1K0.959.K, Lager U3, Kraftstoffoerderung, Motorträger, EMV Kleinmotoren, Kennzeichenleuchte, Schmutzfaenger allgemein, Batteriekonsole, DSG DL702-8Q, Airbagsteuergerät, Vorderradbremse, Schwellerbeplankung, EMV Kuehlerluefter, Dichtungssystem, Türaußengriff, Bremsregelsystem, Windabweiser, Radlager Vorderachse, ZSB Sitz Teil A, ZSB Radhausschale vorn, ZSB Schwellerabdeckung, Heckspoiler, E-Antriebsbaukasten, C-EPS Einzelmodule, ZSB Lagerbügel, ZSB Gelenkwelle, Kältemittelverdichter, Einspritzleitung, Ölfilter, Türgriffelektronik, Handbremshebel, Anforderungen Fz-Sicherheit, Entwicklungsanforderungen Fz-Sicherheit, Zubehörteile im Laderaum, Raddrehzahlsensor, Entwicklungslastenheft, Laderaumabdeckung, Make-Up-Leuchte, Anhang Lastenheft Seitenscheibe, Wallbox ZSB, Anhang Lastenheft Dreieckscheibe, Anhang Lastenheft Türscheiben, Lichtmodul Dekorblende, Modul Hochvolt-Sicherheit, Funktionsauslegung Interieur, EMV-Hochvolt, Frontscheibe Anhang, Berechnung Musik</prop>
+<prop type="Txt::Vorlage">2009_02_LAH_Bordnetz_V4, 2009_07_BTLAH_Basis_V13, 2009_11_BTLAH_EE_V14, 2009_11_BTLAH_Erprobung_V5, 2009_11_BTLAH_EMV_V1.7, 2009_11_BTLAH_Basis_V14, 2009_11_BTLAH_EE_V13, 2009_11_BTLAH_AllgDiagn_V7, 2009_11_BTLAH_KompDiagn_V7, 2009_11_BTLAH_EE_StgSW_V13, 2010_05_BTLAH_Basis_V15, 2010_11_BTLAH_Basis_V15, 2010_11_BTLAH_EMV_V2, 2010_11_BTLAH_Erprobung_V7, 2010_11_BTLAH_Basis_V16, 2011_04_BTLAH_Funktion_V11E, 2011_05_BTLAH_System_V06E, BT-LAH-Vorlage_Basismodul-TE-V16_Nov-2010, 2011_11_BTLAH_Vorlage</prop>
+<tuv xml:lang="DE-DE">
+<seg><ut>{\cs6\f1\cf6\lang1024  </ut>&lt;cf size=&quot;8&quot; asiantextfont=&quot;MS Mincho&quot; complexscriptssize=&quot;8&quot;&gt;<ut>}</ut>Vertraulich.</seg>
+</tuv>
+<tuv xml:lang="EN-US">
+<seg><ut>{\cs6\f1\cf6\lang1024  </ut>&lt;cf size=&quot;8&quot; asiantextfont=&quot;MS Mincho&quot; complexscriptssize=&quot;8&quot;&gt;<ut>}</ut>Confidential.</seg>
+</tuv>
+</tu>
+</body>
+</tmx>

@@ -13,13 +13,57 @@ Domain.delete_all
 # Group.delete_all
 # Translation.delete_all
 Badge.delete_all
+RegEx.delete_all
 
 require 'active_record/fixtures'
 # languages will be from a language file?? #see ascii 179
 ActiveRecord::Fixtures.create_fixtures("#{Rails.root}/db/fixtures", "languages")
 ActiveRecord::Fixtures.create_fixtures("#{Rails.root}/db/fixtures", "domains")
-#domains will be from a CSV?
 
+
+#create regexes
+RegEx.create!(
+    :id => 1,
+    :language_id => 21,
+    :regex_category => "phone",
+    :expression => "^([\+][0-9]{1,3}[ \.\-])?([\(]{1}[0-9]{1,6}[\)])?([0-9 \.\-\/]{3,20})((x|ext|extension)[ ]?[0-9]{1,4})?$"
+  )
+RegEx.create!(
+      :id => 2,
+      :language_id => 26,
+      :regex_category => "phone",
+      :expression => "(([0-9]{3})|((\()([0-9]{3})(\))))?([\s\.-])?([0-9]{3})([\s\.-])?([0-9]{4})([\s\.-])?([x] ?[0-9]{1,7})?"
+)
+    
+    RegEx.create!(
+        :id => 3,
+        :language_id => 1000,
+        :regex_category => "singleton_digitsalphasdigits_digits",
+        :expression => "^\d+[\w|\d]*_\d*$"
+      )
+      
+RegEx.create!(
+          :id => 4,
+          :language_id => 1000,
+          :regex_category => "singleton_alphas_digits",
+          :expression => "^\w*_\d*$"
+)
+      
+        RegEx.create!(
+            :id => 5,
+            :language_id => 1000,
+            :regex_category => "singelton_alpha_alphas_alphas",
+            :expression => "^\w+_[a-z]+_\w+$"
+)
+          
+RegEx.create!(
+              :id => 6,
+              :language_id => 1000,
+              :regex_category => "ALPHASDIGITS",
+              :expression => "^[A-Z]+\d$"
+)  
+          
+          
 
 #create badges
 fact = Badge.create!(:name => "Factotum")

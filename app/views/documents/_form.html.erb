@@ -1,0 +1,23 @@
+<%= form_for @document, :html => { :multipart => true } do |f| %>
+	<%= f.error_messages %>
+	<p>
+  		<%= f.label :name %><br />
+  		<%= f.text_field :name %>
+	</p>  
+
+	<p>
+  		<%= f.label :url %><br />
+  		<%= f.text_field :url, :disabled => true %>
+	</p>
+		<%= f.hidden_field :owner_id, :value => current_user.id  %>
+		<%= f.file_field :data %>
+		<p>
+	<% for domain in @document.domains %>
+	  	<%= f.fields_for :domains do |domain_form| %>
+	  		<%= domain_form.label :domain %><br />
+			<%= domain_form.collection_select(:id, @domains, :id, :code, :prompt => 'Please select domain') %><br />
+		<% end %>
+	<% end %>	
+		</p>
+	<p><%= f.submit %></p>			
+<% end %>

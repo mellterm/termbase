@@ -2,47 +2,64 @@ german:
   id: 1
   iso_code: de
   name: German 
+
+english:
+  id: 2
+  iso_code: en
+  name: English
+
+spanish:
+  id: 3
+  iso_code: es
+  name: English 
+
+russian:
+  id: 4    
+  iso_code: ru
+  name: Russian
+
+chinese:
+  id: 5    
+  iso_code: zh
+  name: Chinese (Mandarin)
+
+arabic:
+  id: 6     
+  iso_code: ar
+  name: Arabic
   
 german_de:
-  id: 2
-  iso_code: de_de
+  id: 21
+  iso_code: de-de
   name: German (Germany)
  
 german_at:
-  id: 3
-  iso_code: de_at
+  id: 22
+  iso_code: de-at
   name: German (Austria)
- 
-english:
-  id: 4
-  iso_code: en
-  name: English 
+
+german_ch:
+  id: 23
+  iso_code: de-ch
+  name: German (Switzerland)
  
 english_gb:
-  id: 5
-  iso_code: en_gb
+  id: 25
+  iso_code: en-gb
   name: English (GB)
 
 english_us:
-  id: 6
-  iso_code: en_us
+  id: 26
+  iso_code: en-us
   name: English (US)            
 
-spanish:
-  id: 7
-  iso_code: es
-  name: Spanish    
+spanish_mx:
+  id: 27
+  iso_code: es-mx
+  name: Spanish (Mexico)
   
-russian:
-  id: 8
-  iso_code: ru
-  name: Russian 
-
-russian_ru:
-  id: 9
-  iso_code: ru_ru
-  name: Russian (Russia)
+un:
+  id: 1000
+  iso_code: un
+  name: No/Any Language        
   
-chinese:
-  iso_code: zh
-  name: Chinese

@@ -1,24 +1,31 @@
 == TODO
 
-Password Reminder
-Make sure it works in production!
+Switch to Devise
+Groups
+Group access codes!
+Admin Interface Can all Users be Admins?
+
+***
+
+
+Get Target Language to Work in Document tmx
+
+Change form to allow extra fields to Document (including is_public)
+
+progress bar for processing
+
+Search by DOMAIN +- DOC TYPE
+Main Page
+SPEED UP!
+gem "activerecord-import", ">= 0.2.0"
+
+****
 
 Profiles
 Do modeling associations, form (optional/non-optional), views
 
 
-File Handler create Document
-Document class
-tmx, csv, pdf (cvs)
-
-
-
-Groups
-Group access codes!
-
-
-
-
+****
 
 
 User/Groups associations
@@ -26,6 +33,10 @@ User associations with groups
 Users have many groups
 
 
+
+JQuery on Document Show
 Translations 
+
+What about New Translations - Special Documents
 
 ONLINE

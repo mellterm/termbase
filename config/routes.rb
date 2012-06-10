@@ -1,7 +1,7 @@
 Termbase::Application.routes.draw do
   
   resources :profiles
-
+  resources :documents
   resources :locations
 
   resources :users

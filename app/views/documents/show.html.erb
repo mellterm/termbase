@@ -1,0 +1,72 @@
+<% title "Document" %>
+
+<p>
+  	<%= @document.name %><br/>
+  	<%= @document.data.url %><br/>
+ 	<%= User.find_by_id(@document.owner_id).name %><br/>
+	
+	<% @document.domains.each do |dom| %>	
+  		<%= dom.code %><br/>
+	<% end %>	
+</p>
+<p>
+	DOCUMENT TRANSLATIONS<br/>
+	Use Translation show page for document_id.<br/>
+	Allow domains to be changed (reclassified) on an individual/group translation basis<br/>
+	
+<p>
+<div>
+<%= will_paginate @docsegs %></br>	
+</div>	
+<% @docsegs.each do |seg| %>
+<table class="table-striped">
+	<thead>
+	<tr>
+	<th> <%= @sourcelang.iso_code %> </th>
+	<th> <%= @targetlang.iso_code %> </th>
+	<th> Public?	</th>
+	<th> Domains	</th>
+	</tr>
+	</thead>
+	<tbody>
+	<tr>
+		
+	<td><%= link_to seg.source_content, translation_path(seg) %>	</td>
+	<td><%= link_to seg.target_content, translation_path(seg) %> 	</td>
+	<td><%= seg.is_public? ? 'yes' : 'no' %>	</td>
+	<td><%= seg.domains unless seg.domains.empty? %>	</td>
+	</tr>
+	</tbody>
+	
+</table>	
+<% end %>
+
+
+
+<% content_for :sidebar do %>
+	<div>
+
+	</div><br/>	
+	<p>
+		DOCUMENT TERMS
+	<p>
+	<% @docterms.each do |term| %>	
+
+		<%= term.source_content %>
+		<br/>
+		<%= term.target_content %>
+		<br/>
+		<%=  %>
+		<br />
+	<% end %>	
+<% end %>
+
+
+
+
+		
+	
+  <%= link_to "Edit", edit_document_path(@document) %> |
+  <%= link_to "Destroy", @document, :confirm => 'Are you sure?', :method => :delete %> |
+  <%= link_to "View All", documents_path %>
+</p>

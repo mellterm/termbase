@@ -1,0 +1,417 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tmx version="1.4">
+  <header creationtool="SDL Language Platform" creationtoolversion="8.0" o-tmf="SDL TM8 Format" datatype="xml" segtype="sentence" adminlang="de-DE" srclang="de-DE" creationdate="20120604T151029Z" creationid="WIN-D9PNK90VME3\vincevincent">
+    <prop type="x-Recognizers">RecognizeAll</prop>
+    <prop type="x-TMName">ITEUB_auto</prop>
+  </header>
+  <body>
+    <tu creationdate="20120604T162923Z" creationid="WIN-D9PNK90VME3\vincevincent" changedate="20120604T162923Z" changeid="WIN-D9PNK90VME3\vincevincent" lastusagedate="20120604T162923Z">
+      <prop type="x-Context">0, 0</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Klare Sicht auf alle Daten</seg>
+      </tuv>
+      <tuv xml:lang="en-GB">
+        <seg>A clear view of all data</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20120604T162925Z" creationid="WIN-D9PNK90VME3\vincevincent" changedate="20120604T162925Z" changeid="WIN-D9PNK90VME3\vincevincent" lastusagedate="20120604T162925Z">
+      <prop type="x-Context">9141936186163041499, 1620107596074242868</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Übersichtliche Aufstellungen und Analysen aller wichtigen Daten der Lieferkette – das sind nur einige Vorteile des neuen Supply Chain Intelligence (SCI) Dashboards, das derzeit in der gesamten BASF eingeführt wird.</seg>
+      </tuv>
+      <tuv xml:lang="en-GB">
+        <seg>Easy-to-read lists and analyses of all important data in the supply chain - this is just a few of the advantages of the new Supply Chain Intelligence (SCI) Dashboard currently being implemented throughout BASF.</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20120604T162927Z" creationid="WIN-D9PNK90VME3\vincevincent" changedate="20120604T162927Z" changeid="WIN-D9PNK90VME3\vincevincent" lastusagedate="20120604T162927Z">
+      <prop type="x-Context">-4069927978285841826, 1404617000528661635</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Das SCI Dashboard ist ein Online-Management-Cockpit für die Datenanalyse, das Controlling, das Reporting und das Monitoring aller Supply-Chain-Aktivitäten der BASF.</seg>
+      </tuv>
+      <tuv xml:lang="en-GB">
+        <seg>The SCI Dashboard is an online management cockpit for data analysis, controlling, reporting and monitoring of all supply chain activities at BASF.</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20120604T162929Z" creationid="WIN-D9PNK90VME3\vincevincent" changedate="20120604T162929Z" changeid="WIN-D9PNK90VME3\vincevincent" lastusagedate="20120604T162929Z">
+      <prop type="x-Context">7818059960930209732, -2793187592584937582</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Mit dem umfangreichen Tool lassen sich für viele Leistungskennzahlen umfangreiche Übersichten schnell und einfach darstellen.</seg>
+      </tuv>
+      <tuv xml:lang="en-GB">
+        <seg>The tool allows users to quickly and easily show comprehensive overview screens for many key performance indicators.</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20120604T162931Z" creationid="WIN-D9PNK90VME3\vincevincent" changedate="20120604T162931Z" changeid="WIN-D9PNK90VME3\vincevincent" lastusagedate="20120604T162931Z">
+      <prop type="x-Context">-3661207612569236792, -6715857429872320964</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Kosten, Service und Bestände – anhand dieser drei Aspekte lässt sich die Leistung der Supply Chain (SC). messen.</seg>
+      </tuv>
+      <tuv xml:lang="en-GB">
+        <seg>Costs, service and inventories- these three aspects are the means with which the measure the performance of a supply chain (SC) can be measured.</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20120604T162933Z" creationid="WIN-D9PNK90VME3\vincevincent" changedate="20120604T162933Z" changeid="WIN-D9PNK90VME3\vincevincent" lastusagedate="20120604T162933Z">
+      <prop type="x-Context">-8044744960235682419, 1736393889991448099</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Für jeden dieser Bereiche gibt es Kennzahlen (KPIs), für Service zum Beispiel die Lieferzuverlässigkeit.</seg>
+      </tuv>
+      <tuv xml:lang="en-GB">
+        <seg>Each of these has a Key Performance Indicator (KPI). For instance, for service, it is delivery reliability.</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20120604T162935Z" creationid="WIN-D9PNK90VME3\vincevincent" changedate="20120604T162935Z" changeid="WIN-D9PNK90VME3\vincevincent" lastusagedate="20120604T162935Z">
+      <prop type="x-Context">-1417182093638413305, 1725360092757510530</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Das SCI Dashboard ermittelt diese Kennzahlen, indem es Daten aus verschiedenen Reporting-Systemen ausliest, die dann gebündelt, konsolidiert und aktuell bereitgestellt werden.</seg>
+      </tuv>
+      <tuv xml:lang="en-GB">
+        <seg>The SCI Dashboard calculates these KPIs by taking data from various reporting systems which it then bundles, consolidates, and outputs the latest data.</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20120604T162936Z" creationid="WIN-D9PNK90VME3\vincevincent" changedate="20120604T162936Z" changeid="WIN-D9PNK90VME3\vincevincent" lastusagedate="20120604T162936Z">
+      <prop type="x-Context">5987727291324172343, -8890375017683445540</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>„So müssen Supply Chain Controller, Supply Chain Manager und Business-Analysten die Daten nicht selbst zusammentragen und analysieren, sondern können sich darauf konzentrieren, die Kennzahlen zu interpretieren und angemessene Maßnahmen einzuleiten“, sagt Nicole Mayer, Global Application Owner SCI Dashboard.</seg>
+      </tuv>
+      <tuv xml:lang="en-GB">
+        <seg>"This means supply chain controllers, supply chain managers and business analysts do not need to collate and analyse the data themselves but can instead concentrate on interpreting these KPIs and in taking appropriate action", says Nicole Mayer, Global Application Owner SCI Dashboard.</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20120604T162939Z" creationid="WIN-D9PNK90VME3\vincevincent" changedate="20120604T162939Z" changeid="WIN-D9PNK90VME3\vincevincent" lastusagedate="20120604T162939Z">
+      <prop type="x-Context">-5872532772132966530, 5026709775086339911</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>„Das spart im Alltag eine Menge Zeit.“</seg>
+      </tuv>
+      <tuv xml:lang="en-GB">
+        <seg>"This saves a huge amount of time in day-to-day work".</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20120604T162940Z" creationid="WIN-D9PNK90VME3\vincevincent" changedate="20120604T162940Z" changeid="WIN-D9PNK90VME3\vincevincent" lastusagedate="20120604T162940Z">
+      <prop type="x-Context">-8559615665025132368, -3041397882212479335</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Informationen nach Bedarf</seg>
+      </tuv>
+      <tuv xml:lang="en-GB">
+        <seg>Information when its needed</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20120604T162942Z" creationid="WIN-D9PNK90VME3\vincevincent" changedate="20120604T162942Z" changeid="WIN-D9PNK90VME3\vincevincent" lastusagedate="20120604T162942Z">
+      <prop type="x-Context">-2963771743263956633, -2330455012372424291</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Angewendet wird das SCI Dashboard hauptsächlich von Managern aller Hierarchie-Ebenen und SCM Mitarbeitern der operativen Ebene.</seg>
+      </tuv>
+      <tuv xml:lang="en-GB">
+        <seg>The SCI Dashboard is mostly used by managers from all hierarchy levels, and SCM staff in Operations.</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20120604T162944Z" creationid="WIN-D9PNK90VME3\vincevincent" changedate="20120604T162944Z" changeid="WIN-D9PNK90VME3\vincevincent" lastusagedate="20120604T162944Z">
+      <prop type="x-Context">2253833106291097060, 2964779113889627777</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Das Besondere dabei ist, dass jede Geschäftseinheit die Auswertungen und Ansichten an ihren individuellen Bedarf anpassen kann.</seg>
+      </tuv>
+      <tuv xml:lang="en-GB">
+        <seg>The special feature of the dashboard is that all business units can customise the evaluations and reviews to its particular need.</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20120604T162946Z" creationid="WIN-D9PNK90VME3\vincevincent" changedate="20120604T162946Z" changeid="WIN-D9PNK90VME3\vincevincent" lastusagedate="20120604T162946Z">
+      <prop type="x-Context">-2076362562019357545, -7938452779952825999</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Wie das aussieht?</seg>
+      </tuv>
+      <tuv xml:lang="en-GB">
+        <seg>How does this look?</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20120604T162948Z" creationid="WIN-D9PNK90VME3\vincevincent" changedate="20120604T162948Z" changeid="WIN-D9PNK90VME3\vincevincent" lastusagedate="20120604T162948Z">
+      <prop type="x-Context">8548913543123584712, -7429400594609407334</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Zum Beispiel lässt sich in einem indizierten Graphen die Entwicklung von wichtigen Kennzahlen wie Liefertreue oder Logistikkosten über längere Zeiträume hinweg global aggregiert darstellen und vergleichen.</seg>
+      </tuv>
+      <tuv xml:lang="en-GB">
+        <seg>For example, an indexed graph can show how important KPIs, such as supplier or logistics costs, have changed over a longer period of time- globally, in aggregated form. These can then be compared.</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20120604T162950Z" creationid="WIN-D9PNK90VME3\vincevincent" changedate="20120604T162950Z" changeid="WIN-D9PNK90VME3\vincevincent" lastusagedate="20120604T162950Z">
+      <prop type="x-Context">7723175790517484159, -4091498822416255926</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>So können Manager Trends erkennen und bei Bedarf steuernd eingreifen.</seg>
+      </tuv>
+      <tuv xml:lang="en-GB">
+        <seg>Managers can spot trends and take action where necessary.</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20120604T162951Z" creationid="WIN-D9PNK90VME3\vincevincent" changedate="20120604T162951Z" changeid="WIN-D9PNK90VME3\vincevincent" lastusagedate="20120604T162951Z">
+      <prop type="x-Context">-2310968680377632693, 5888163105949990083</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Für Mitarbeiter der operativen Ebene gibt es detaillierte Ansichten und Funktionen.</seg>
+      </tuv>
+      <tuv xml:lang="en-GB">
+        <seg>Operative staff have detailed views and functions at their disposal.</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20120604T162953Z" creationid="WIN-D9PNK90VME3\vincevincent" changedate="20120604T162953Z" changeid="WIN-D9PNK90VME3\vincevincent" lastusagedate="20120604T162953Z">
+      <prop type="x-Context">1741102359521806624, -6350362877966665395</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Die Ansichten sowie die Kalkulationsbasis der KPIs lassen sich außerdem an die Maßgaben einzelner Business Units anpassen.</seg>
+      </tuv>
+      <tuv xml:lang="en-GB">
+        <seg>The views and formulas for the KPIs can also be adjusted to the requirements of individual business units.</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20120604T162955Z" creationid="WIN-D9PNK90VME3\vincevincent" changedate="20120604T162955Z" changeid="WIN-D9PNK90VME3\vincevincent" lastusagedate="20120604T162955Z">
+      <prop type="x-Context">5531020778755605351, -2562799342640339544</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>„‚Lieferzuverlässigkeit‘ kann zum Beispiel für zwei Geschäftseinheiten unterschiedlich kalkuliert werden“, erklärt Mayer.</seg>
+      </tuv>
+      <tuv xml:lang="en-GB">
+        <seg>"'Delivery reliability', for example can be calculated differently for two business units", explains Mayer.</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20120604T163009Z" creationid="WIN-D9PNK90VME3\vincevincent" changedate="20120604T163009Z" changeid="WIN-D9PNK90VME3\vincevincent" lastusagedate="20120604T163009Z">
+      <prop type="x-Context">-5829627731091504013, -4186806434380592350</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>„Während es in der einen Einheit keine Spielräume zulässig sind und die Ware genau am festgelegten Termin zugestellt werden muss, ist für eine andere Einheit dieses Kriterium auch dann erfüllt, wenn die Lieferung einen Tag vor oder nach dem vereinbarten Termin eingeht.</seg>
+      </tuv>
+      <tuv xml:lang="en-GB">
+        <seg>"One business unit may not allow any leeway- the goods have to be delivered on precisely the day scheduled, in the other, the criterion can still be met if the delivery is made on a day before or after the agreed date.</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20120604T163011Z" creationid="WIN-D9PNK90VME3\vincevincent" changedate="20120604T163011Z" changeid="WIN-D9PNK90VME3\vincevincent" lastusagedate="20120604T163011Z">
+      <prop type="x-Context">8822244532887884118, 451611230050796642</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Welche Toleranzen oder Filterkriterien in eine Kennzahl einfließen, hängt also immer auch vom jeweiligen Geschäft ab.“ Die Anwender können solche individuellen Maßstäbe in das Dashboard eingeben und in der KPI-Ermittlung für ihre Einheiten berücksichtigen.</seg>
+      </tuv>
+      <tuv xml:lang="en-GB">
+        <seg>"The line of business will determine which tolerances or filter criteria are applied to a KPU." Users can enter such custom parameters in the dashboard which are then used when calculating the KPI for their units.</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20120604T163013Z" creationid="WIN-D9PNK90VME3\vincevincent" changedate="20120604T163013Z" changeid="WIN-D9PNK90VME3\vincevincent" lastusagedate="20120604T163013Z">
+      <prop type="x-Context">-5229210050879353304, -6539019293819021548</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Zusätzlich können sie auch jederzeit die globalen Standardmaßstäbe im SCI Dashboard verwenden.</seg>
+      </tuv>
+      <tuv xml:lang="en-GB">
+        <seg>They can also use the standard global formulas in the SCI Dashboard at any time.</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20120604T153940Z" creationid="WIN-D9PNK90VME3\vincevincent" changedate="20120604T163014Z" changeid="WIN-D9PNK90VME3\vincevincent" lastusagedate="20120604T163014Z">
+      <prop type="x-Context">0, 0</prop>
+      <prop type="x-Context">704828877743869239, 4374001317041734801</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Es ist zudem möglich, direkt im Dashboard Ziele für alle KPIs festzulegen, die eine Business Unit als zielrelevant definiert hat, und deren Umsetzung zu überwachen.</seg>
+      </tuv>
+      <tuv xml:lang="en-GB">
+        <seg>It is also possible to define targets for all KPIs a business unit has specified as target-relevant, i.e. whose implementation is monitored.</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20120604T163016Z" creationid="WIN-D9PNK90VME3\vincevincent" changedate="20120604T163016Z" changeid="WIN-D9PNK90VME3\vincevincent" lastusagedate="20120604T163016Z">
+      <prop type="x-Context">1002453712461959717, 7558292932783377994</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Die Ziele werden dafür in einer Monitoring-Ansicht aufgeführt, Ampelfarben zeigen den Status an.</seg>
+      </tuv>
+      <tuv xml:lang="en-GB">
+        <seg>The targets are listed in a Monitoring overview screen. Traffic lights are used to show their current status.</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20120604T163018Z" creationid="WIN-D9PNK90VME3\vincevincent" changedate="20120604T163018Z" changeid="WIN-D9PNK90VME3\vincevincent" lastusagedate="20120604T163018Z">
+      <prop type="x-Context">-4171029643886980595, 2003547860213998776</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Beispielsweise lässt sich so feststellen, ob eine vorgegebene Lagerreichweite – also die Anzahl der Tage, für die der Bestand bei einem durchschnittlichen oder geplanten Verbrauch ausreichen soll – eingehalten wird oder nicht.</seg>
+      </tuv>
+      <tuv xml:lang="en-GB">
+        <seg>For instance, the system whether a pre-defined inventory coverage figure - the number of days for which the inventory is supposed to be sufficient at average or planned levels of consumption - was met or not.</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20120604T163020Z" creationid="WIN-D9PNK90VME3\vincevincent" changedate="20120604T163020Z" changeid="WIN-D9PNK90VME3\vincevincent" lastusagedate="20120604T163020Z">
+      <prop type="x-Context">-4316519082196858912, -3364755233877355248</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Auch das Reporting wird mit dem SCI Dashboard einfacher:</seg>
+      </tuv>
+      <tuv xml:lang="en-GB">
+        <seg>The SCI Dashboard also makes reporting easier:</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20120604T163021Z" creationid="WIN-D9PNK90VME3\vincevincent" changedate="20120604T163021Z" changeid="WIN-D9PNK90VME3\vincevincent" lastusagedate="20120604T163021Z">
+      <prop type="x-Context">5682124267272910689, 5187711797585790666</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Die KPI-Ansichten lassen sich an den jeweiligen Reporting-Bedarf einer Business Unit oder Funktion anpassen.</seg>
+      </tuv>
+      <tuv xml:lang="en-GB">
+        <seg>KPI views can be adapted to a particular need of a business unit  or function.</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20120604T163023Z" creationid="WIN-D9PNK90VME3\vincevincent" changedate="20120604T163023Z" changeid="WIN-D9PNK90VME3\vincevincent" lastusagedate="20120604T163023Z">
+      <prop type="x-Context">-6148994717733228526, 2198258433322319729</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>„Diese Ansichten können die Anwender als Favoriten im SCI Dashboard hinterlegen“, sagt Mayer.</seg>
+      </tuv>
+      <tuv xml:lang="en-GB">
+        <seg>"Users can save these views in the SCI Dashboard as favourites",says Mayer.</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20120604T163024Z" creationid="WIN-D9PNK90VME3\vincevincent" changedate="20120604T163024Z" changeid="WIN-D9PNK90VME3\vincevincent" lastusagedate="20120604T163024Z">
+      <prop type="x-Context">3225873280410143118, 930648804068827714</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Weitere Funktionen sind geplant</seg>
+      </tuv>
+      <tuv xml:lang="en-GB">
+        <seg>More functions are planned</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20120604T163026Z" creationid="WIN-D9PNK90VME3\vincevincent" changedate="20120604T163026Z" changeid="WIN-D9PNK90VME3\vincevincent" lastusagedate="20120604T163026Z">
+      <prop type="x-Context">7610096375403173541, -6931844594258259624</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Das SCI Dashboard wird schrittweise um weitere Funktionen ergänzt.</seg>
+      </tuv>
+      <tuv xml:lang="en-GB">
+        <seg>New functions will be added to the SCI Dashboard step by step.</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20120604T163027Z" creationid="WIN-D9PNK90VME3\vincevincent" changedate="20120604T163027Z" changeid="WIN-D9PNK90VME3\vincevincent" lastusagedate="20120604T163027Z">
+      <prop type="x-Context">534395350654954361, 6396167628582085978</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Beispielsweise wird derzeit eine Planungsperspektive entwickelt, mit der die Supply-Chain-Mitarbeiter den geplanten und tatsächlichen Kundenbedarf für bestimmte Produkte gegeneinander abgleichen können.</seg>
+      </tuv>
+      <tuv xml:lang="en-GB">
+        <seg>For example, a planning perspective is currently being developed to allow supply chain employees to compare the planned and actual customer demand for specific products.</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20120604T163029Z" creationid="WIN-D9PNK90VME3\vincevincent" changedate="20120604T163029Z" changeid="WIN-D9PNK90VME3\vincevincent" lastusagedate="20120604T163029Z">
+      <prop type="x-Context">-2939086156517070533, -2322731366169243136</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Dadurch lassen sich Abweichungen frühzeitig erkennen und die Produktion sowie Lieferprozesse entsprechend anpassen.</seg>
+      </tuv>
+      <tuv xml:lang="en-GB">
+        <seg>Anomalies can be identified early on and production and delivery processes can be adapted as appropriate.</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20120604T163032Z" creationid="WIN-D9PNK90VME3\vincevincent" changedate="20120604T163032Z" changeid="WIN-D9PNK90VME3\vincevincent" lastusagedate="20120604T163032Z">
+      <prop type="x-Context">5540929567604333881, 3831309498450111551</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Ziel ist es, eine lückenlose Analyse der Supply-Chain-Prozesse zu ermöglichen.</seg>
+      </tuv>
+      <tuv xml:lang="en-GB">
+        <seg>The aim is to provide continuous analysis of supply chain processes.</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20120604T163035Z" creationid="WIN-D9PNK90VME3\vincevincent" changedate="20120604T163035Z" changeid="WIN-D9PNK90VME3\vincevincent" lastusagedate="20120604T163035Z">
+      <prop type="x-Context">0, 0</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Supply Chain Intelligence (SCI)</seg>
+      </tuv>
+      <tuv xml:lang="en-GB">
+        <seg>Supply Chain Intelligence (SCI)</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20120604T163036Z" creationid="WIN-D9PNK90VME3\vincevincent" changedate="20120604T163036Z" changeid="WIN-D9PNK90VME3\vincevincent" lastusagedate="20120604T163036Z">
+      <prop type="x-Context">-8867521590856031890, -5129698333196882459</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>SCI bezeichnet ein Konzept für die Entwicklung einer einzigen, globalen Reporting-Landschaft für das Controlling und Monitoring der gesamten Supply Chain.</seg>
+      </tuv>
+      <tuv xml:lang="en-GB">
+        <seg>SCI is a concept for developing a single, global reporting environment for controlling and monitoring the entire supply chain.</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20120604T163038Z" creationid="WIN-D9PNK90VME3\vincevincent" changedate="20120604T163038Z" changeid="WIN-D9PNK90VME3\vincevincent" lastusagedate="20120604T163038Z">
+      <prop type="x-Context">-3107898545253111865, -6110769075150726022</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>SCI-Anwendungen stellen sämtliche Informationen zu Logistikprozessen bereit und gewährleisten konsistente und valide Daten auf allen Ebenen des Unternehmens – von Details des operativen Geschäfts im SCI Reporting System bis hin zu einer aggregierten Gesamtübersicht über die BASF Gruppe im SCI Dashboard.</seg>
+      </tuv>
+      <tuv xml:lang="en-GB">
+        <seg>SCI applications provide all information about logistics processes and ensure consistent, valid data at all levels of the company - from details of the operative business in the SCI Reporting system to an aggregated overall view of the BASF group in the SCI Dashboard.</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20120604T163040Z" creationid="WIN-D9PNK90VME3\vincevincent" changedate="20120604T163040Z" changeid="WIN-D9PNK90VME3\vincevincent" lastusagedate="20120604T163040Z">
+      <prop type="x-Context">-1314603661671273597, 5142978055596737441</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Auf diese Weise können Business Units und Zentralabteilungen aussagekräftige Informationen wie Key Performance Indicators (KPIs) jederzeit im Blick behalten und diese bis ins Detail analysieren.</seg>
+      </tuv>
+      <tuv xml:lang="en-GB">
+        <seg>This allows business units and central departments to keep an eye on significant information such as Key Performance Indicators at all times, as well as analysing such data in detail.</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20120604T163042Z" creationid="WIN-D9PNK90VME3\vincevincent" changedate="20120604T163042Z" changeid="WIN-D9PNK90VME3\vincevincent" lastusagedate="20120604T163042Z">
+      <prop type="x-Context">6094234974760181108, 3457057276401103022</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Das SCI Dashboard ist ein webbasiertes Management-Cockpit, über das die Anwender auf die SC-Kennzahlen zugreifen können.</seg>
+      </tuv>
+      <tuv xml:lang="en-GB">
+        <seg>The SCI Dashboard is a web-based management cockpit that allows users to acccess SC KPIs.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

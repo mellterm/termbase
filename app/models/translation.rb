@@ -12,7 +12,7 @@ class Translation < ActiveRecord::Base
 
   
   attr_protected :version
-  attr_accessible :type, :source_language_id, :source_content, :target_language_id, :target_content, :contexts_attributes, :metadata, :ilk
+  attr_accessible :document_id, :created_by_id, :type, :source_language_id, :source_content, :target_language_id, :target_content, :contexts_attributes, :metadata, :ilk, :created_at
   scope :rough_search, lambda {|query| where("source_content like ?", "%#{query}%").order(:updated_at) }
   scope :exact_search, lambda {|query| where("source_content = ?", "#{query}").order(:updated_at) }
 
